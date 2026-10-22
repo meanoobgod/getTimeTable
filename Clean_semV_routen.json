@@ -1,0 +1,3992 @@
+[
+    {
+        "1": [
+            [
+                "ECOMA(M)",
+                "Madam (Dr.) CM SWER",
+                "71"
+            ],
+            [
+                "EDUMA(M)",
+                "Madam (Dr.) VV KHRIAM",
+                "6"
+            ],
+            [
+                "ENGMA(M)",
+                "",
+                "32"
+            ],
+            [
+                "HISMA(M)",
+                "",
+                "33"
+            ],
+            [
+                "KHAMA(M)",
+                "Madam B LYNGDOH",
+                "23"
+            ],
+            [
+                "PHIMA(M)",
+                "",
+                "42"
+            ],
+            [
+                "POLMA(M)",
+                "Sir A BHATTACHARJEE",
+                "56"
+            ],
+            [
+                "COMMA(M)",
+                "Madam AAL NONGPIUR",
+                "54"
+            ]
+        ],
+        "2": [
+            [
+                "ECOMA(M)",
+                "Madam (Dr.) CM SWER",
+                "71"
+            ],
+            [
+                "EDUMA(M)",
+                "Madam (Dr.) VV KHRIAM",
+                "6"
+            ],
+            [
+                "ENGMA(M)",
+                "",
+                "32"
+            ],
+            [
+                "HISMA(M)",
+                "Sir (Dr.) HA HIWALE",
+                "33"
+            ],
+            [
+                "KHAMA(M)",
+                "Madam S WARBAH",
+                "23"
+            ],
+            [
+                "PHIMA(M)",
+                "",
+                "42"
+            ],
+            [
+                "POLMA(M)",
+                "Sir N KHARLUKHI",
+                "56"
+            ],
+            [
+                "COMMA(M)",
+                "Sir S DKHAR",
+                "54"
+            ]
+        ],
+        "3": [
+            [
+                "ECOMI(M)",
+                "Madam (Dr.) SG HYNNIEWTA",
+                "71"
+            ],
+            [
+                "EDUMI(M)",
+                "Madam D NONGBRI",
+                "33"
+            ],
+            [
+                "ENGMI(M)",
+                "",
+                "37"
+            ],
+            [
+                "HISMI(M)",
+                "Sir (Dr.) HA HIWALE",
+                "34"
+            ],
+            [
+                "KHAMI(M)",
+                "Madam S WARBAH",
+                "23"
+            ],
+            [
+                "PHIMI(M)",
+                "Madam LC KURBAH",
+                "26"
+            ],
+            [
+                "POLMI(M)",
+                "Sir A BHATTACHARJEE",
+                "56"
+            ],
+            [
+                "COMMI(M)",
+                "",
+                "55"
+            ]
+        ],
+        "4": [
+            [
+                "ECOMA(M)",
+                "Madam GD PYRTUH",
+                "71"
+            ],
+            [
+                "EDUMA(M)",
+                "Madam IL MAWLONG",
+                "29"
+            ],
+            [
+                "ENGMA(M)",
+                "",
+                "37"
+            ],
+            [
+                "HISMA(M)",
+                "Madam (Dr.) M KHARWANLANG",
+                "34"
+            ],
+            [
+                "KHAMA(M)",
+                "Sir BM KHARBANI",
+                "23"
+            ],
+            [
+                "PHIMA(M)",
+                "Madam (Dr.) WM NONGBRI",
+                "26"
+            ],
+            [
+                "POLMA(M)",
+                "Sir RE KHARBANI",
+                "56"
+            ],
+            [
+                "COMMA(M)",
+                "Madam I HYNNIEWTA",
+                "53"
+            ],
+            [
+                "MTHMA",
+                "Sir E SYIEMLIEH",
+                "16"
+            ],
+            [
+                "BBAMA",
+                "Sir AL WARJRI",
+                "67"
+            ],
+            [
+                "V.ED-V-[BOTMA/ZOOMA/FSCMA]",
+                "",
+                "#"
+            ]
+        ],
+        "5": [
+            [
+                "ECOMI(M)",
+                "Madam (Dr.) SG HYNNIEWTA",
+                "71"
+            ],
+            [
+                "EDUMI(M)",
+                "Madam IL MAWLONG",
+                "29"
+            ],
+            [
+                "ENGMI(M)",
+                "",
+                "37"
+            ],
+            [
+                "HISMI(M)",
+                "Sir (Dr.) HA HIWALE",
+                "34"
+            ],
+            [
+                "KHAMI(M)",
+                "Madam (Dr.) D BYRSAT",
+                "23"
+            ],
+            [
+                "PHIMI(M)",
+                "Sir S MUKTIEH",
+                "26"
+            ],
+            [
+                "POLMI(M)",
+                "Sir R DKHAR",
+                "56"
+            ],
+            [
+                "MUSMI(Pr)",
+                "",
+                "LAB 1"
+            ],
+            [
+                "METMI(Pr)",
+                "Sir T LIM",
+                "LAB 1"
+            ],
+            [
+                "MVPMI(Pr)",
+                "Madam (Dr.) CKD KHARSHIING",
+                "LAB 1"
+            ],
+            [
+                "BCHMI(Pr)",
+                "Sir (Dr.) HG LYNGDOH Sir VM WANN Sir T CHALLAM",
+                "LAB 1"
+            ],
+            [
+                "BITMI(Pr)",
+                "Madam L JOHN Sir (Dr.) S THABAH Madam (Dr.) CE SAWIAN Madam AM SUSNGI",
+                "LAB 1"
+            ],
+            [
+                "BOTMI(Pr)",
+                "Madam E NONGBRI Madam (Dr.) AK LAKRA",
+                "LAB 1"
+            ],
+            [
+                "CHEMI(Pr)",
+                "Sir F DIENGDOH Sir (Dr.) B KSHIAR Madam (Dr.) I KHARKONGOR Sir M CHAKRABARTY",
+                "LAB 1"
+            ],
+            [
+                "CSCMI(Pr)",
+                "Madam (Dr.) MJ THAM",
+                "LAB 1"
+            ],
+            [
+                "FSCMI(Pr)",
+                "Madam E WANNIANG Sir W TIEWSOH Sir (Dr.) R NATH Madam (Dr.) SMB KHARBULI",
+                "Dept."
+            ],
+            [
+                "GELMI(Pr)",
+                "Madam T MUKHIM",
+                "LAB 1"
+            ],
+            [
+                "PHYMI(Pr)",
+                "Sir (Dr.) S CHUTIA Madam M BRAHMA",
+                "LAB 1"
+            ],
+            [
+                "STAMI(Pr)",
+                "Faculty Unspecified",
+                "61"
+            ],
+            [
+                "ZOOMI(Pr)",
+                "Sir (Dr.) FA LAMARE Sir JN SYIEM Faculty Unspecified",
+                "LAB 1"
+            ]
+        ],
+        "6": [
+            [
+                "MUSMI(Pr)",
+                "",
+                "LAB 1"
+            ],
+            [
+                "METMI(Pr)",
+                "Sir T LIM",
+                "LAB 1"
+            ],
+            [
+                "MVPMI(Pr)",
+                "Madam (Dr.) CKD KHARSHIING",
+                "LAB 1"
+            ],
+            [
+                "BCHMI(Pr)",
+                "Sir (Dr.) HG LYNGDOH Sir VM WANN Sir T CHALLAM",
+                "LAB 1"
+            ],
+            [
+                "BITMI(Pr)",
+                "Sir (Dr.) S THABAH Madam L JOHN Madam (Dr.) CE SAWIAN Madam AM SUSNGI",
+                "LAB 1"
+            ],
+            [
+                "BOTMI(Pr)",
+                "Madam E NONGBRI Madam (Dr.) AK LAKRA",
+                "LAB 1"
+            ],
+            [
+                "CHEMI(Pr)",
+                "Sir F DIENGDOH Sir (Dr.) B KSHIAR Madam (Dr.) I KHARKONGOR Sir M CHAKRABARTY",
+                "LAB 1"
+            ],
+            [
+                "CSCMI(Pr)",
+                "Madam (Dr.) MJ THAM",
+                "LAB 1"
+            ],
+            [
+                "FSCMI(Pr)",
+                "Madam E WANNIANG Sir W TIEWSOH Sir (Dr.) R NATH Madam (Dr.) SMB KHARBULI",
+                "Dept."
+            ],
+            [
+                "GELMI(Pr)",
+                "Madam T MUKHIM",
+                "LAB 1"
+            ],
+            [
+                "PHYMI(Pr)",
+                "Sir (Dr.) S CHUTIA Madam M BRAHMA",
+                "LAB 1"
+            ],
+            [
+                "STAMI(Pr)",
+                "Sir (Dr.) SP MARBANIANG",
+                "61"
+            ],
+            [
+                "ZOOMI(Pr)",
+                "Sir (Dr.) FA LAMARE Sir JN SYIEM Faculty Unspecified",
+                "LAB 1"
+            ]
+        ],
+        "7": [
+            [
+                "ECOMI(D)",
+                "Madam (Dr.) SG HYNNIEWTA",
+                "71"
+            ],
+            [
+                "EDUMI(D)",
+                "Madam G MARBANIANG",
+                "32"
+            ],
+            [
+                "ENGMI(D)",
+                "",
+                "33"
+            ],
+            [
+                "HISMI(D)",
+                "Sir E LAMARE",
+                "34"
+            ],
+            [
+                "KHAMI(D)",
+                "Madam (Dr.) D BYRSAT",
+                "40"
+            ],
+            [
+                "PHIMI(D)",
+                "Madam (Dr.) WM NONGBRI",
+                "21"
+            ],
+            [
+                "POLMI(D)",
+                "Sir R DKHAR",
+                "59"
+            ],
+            [
+                "COMMI(D)",
+                "Madam M DKHAR",
+                "69"
+            ],
+            [
+                "MUSMI(Pr)",
+                "",
+                "LAB 1"
+            ],
+            [
+                "METMI(Pr)",
+                "Sir T LIM",
+                "LAB 1"
+            ],
+            [
+                "MVPMI(Pr)",
+                "Madam (Dr.) CKD KHARSHIING",
+                "LAB 1"
+            ],
+            [
+                "BCHMI(Pr)",
+                "Sir (Dr.) HG LYNGDOH Sir VM WANN Sir T CHALLAM",
+                "LAB 1"
+            ],
+            [
+                "BITMI(Pr)",
+                "Sir (Dr.) S THABAH Madam L JOHN Madam (Dr.) CE SAWIAN Madam AM SUSNGI",
+                "LAB 1"
+            ],
+            [
+                "BOTMI(Pr)",
+                "Madam E NONGBRI Madam (Dr.) AK LAKRA",
+                "LAB 1"
+            ],
+            [
+                "CHEMI(Pr)",
+                "Sir F DIENGDOH Sir (Dr.) B KSHIAR Madam (Dr.) I KHARKONGOR Sir M CHAKRABARTY",
+                "LAB 1"
+            ],
+            [
+                "CSCMI(Pr)",
+                "Madam (Dr.) MJ THAM",
+                "LAB 1"
+            ],
+            [
+                "FSCMI(Pr)",
+                "Madam E WANNIANG Sir W TIEWSOH Sir (Dr.) R NATH Madam (Dr.) SMB KHARBULI",
+                "Dept."
+            ],
+            [
+                "GELMI(Pr)",
+                "Madam N CHETTRI",
+                "LAB 1"
+            ],
+            [
+                "PHYMI(Pr)",
+                "Sir (Dr.) S SAIKIA Sir (Dr.) D KHARKONGOR",
+                "LAB 1"
+            ],
+            [
+                "STAMI(Pr)",
+                "Sir (Dr.) SP MARBANIANG",
+                "61"
+            ],
+            [
+                "ZOOMI(Pr)",
+                "Sir (Dr.) FA LAMARE Sir JN SYIEM Faculty Unspecified",
+                "LAB 1"
+            ]
+        ],
+        "8": [
+            [
+                "ECOMA(D)",
+                "Madam GD PYRTUH",
+                "71"
+            ],
+            [
+                "EDUMA(D)",
+                "Madam DL MAWLONG",
+                "29"
+            ],
+            [
+                "ENGMA(D)",
+                "",
+                "38"
+            ],
+            [
+                "HISMA(D)",
+                "Sir SF KYNTA",
+                "36"
+            ],
+            [
+                "KHAMA(D)",
+                "Madam (Dr.) D BYRSAT",
+                "23"
+            ],
+            [
+                "PHIMA(D)",
+                "Madam (Dr.) WM NONGBRI",
+                "21"
+            ],
+            [
+                "POLMA(D)",
+                "Madam GK LAPANG",
+                "56"
+            ],
+            [
+                "MTHMA",
+                "Sir (Dr.) W KHYLLEP",
+                "17"
+            ],
+            [
+                "BBAMA",
+                "Sir (Dr.) DF MARBANIANG",
+                "69"
+            ],
+            [
+                "COMMA(D)",
+                "Madam AS MALNGIANG",
+                "53"
+            ]
+        ],
+        "9": [
+            [
+                "ECOMA(D)",
+                "Sir DE CHALLAM",
+                "71"
+            ],
+            [
+                "EDUMA(D)",
+                "Madam DL MAWLONG",
+                "29"
+            ],
+            [
+                "ENGMA(D)",
+                "",
+                "38"
+            ],
+            [
+                "HISMA(D)",
+                "Sir BS LYNGDOH",
+                "36"
+            ],
+            [
+                "KHAMA(D)",
+                "Sir (Dr.) T LYNSHING",
+                "23"
+            ],
+            [
+                "PHIMA(D)",
+                "Madam (Dr.) MB SYIEM",
+                "21"
+            ],
+            [
+                "POLMA(D)",
+                "Sir R DKHAR",
+                "56"
+            ],
+            [
+                "MTHMA",
+                "Sir JM SUN",
+                "17"
+            ],
+            [
+                "MUSMA(Pr)",
+                "",
+                "LAB 1"
+            ],
+            [
+                "METMA(Pr)",
+                "Madam (Dr.) RK CHHETRI",
+                "LAB 1"
+            ],
+            [
+                "MVPMA(Pr)",
+                "",
+                "LAB 1"
+            ],
+            [
+                "BCHMA(Pr)",
+                "Sir (Dr.) HG LYNGDOH Sir T CHALLAM Sir VM WANN Madam (Dr.) S NONGRUM",
+                "LAB 1"
+            ],
+            [
+                "BITMA(Pr)",
+                "Sir (Dr.) S THABAH Madam L JOHN Madam (Dr.) CE SAWIAN Madam AM SUSNGI",
+                "LAB 1"
+            ],
+            [
+                "BOTMA(Pr)",
+                "Sir SM SYIEMLIEH Madam (Dr.) AK LAKRA",
+                "LAB 1"
+            ],
+            [
+                "CHEMA",
+                "Sir (Dr.) B KSHIAR",
+                "5"
+            ],
+            [
+                "CSCMA(Pr)",
+                "Madam (Dr.) P ROYCHOUDHURY",
+                "LAB 1"
+            ],
+            [
+                "FSCMA(Pr)",
+                "Madam E WANNIANG Sir W TIEWSOH",
+                "Dept."
+            ],
+            [
+                "GELMA(Pr)",
+                "Madam N CHETTRI",
+                "LAB 1"
+            ],
+            [
+                "PHYMA(Pr)",
+                "Sir VR KHONGWIR Sir (Dr.) S SAIKIA",
+                "LAB 1"
+            ],
+            [
+                "STAMA(Pr)",
+                "Madam R HOOJON",
+                "61"
+            ],
+            [
+                "ZOOMA(Pr)",
+                "Madam (Dr.) KRR MIHSILL Sir AD MARBANIANG Faculty Unspecified",
+                "LAB 1"
+            ],
+            [
+                "COMMA(D)",
+                "",
+                "#"
+            ]
+        ],
+        "10": [
+            [
+                "ECOMA(D)",
+                "Sir DE CHALLAM",
+                "71"
+            ],
+            [
+                "EDUMA(D)",
+                "Madam G MARBANIANG",
+                "29"
+            ],
+            [
+                "ENGMA(D)",
+                "",
+                "38"
+            ],
+            [
+                "HISMA(D)",
+                "Madam (Dr.) SC LAMARE",
+                "36"
+            ],
+            [
+                "KHAMA(D)",
+                "Sir BM KHARBANI",
+                "23"
+            ],
+            [
+                "PHIMA(D)",
+                "Madam (Dr.) MB SYIEM",
+                "21"
+            ],
+            [
+                "POLMA(D)",
+                "Madam GK LAPANG",
+                "56"
+            ],
+            [
+                "COMMA(D)",
+                "Madam I HYNNIEWTA",
+                "59"
+            ],
+            [
+                "MUSMA(Pr)",
+                "",
+                "LAB 1"
+            ],
+            [
+                "METMA(Pr)",
+                "Madam (Dr.) RK CHHETRI",
+                "LAB 1"
+            ],
+            [
+                "MVPMA(Pr)",
+                "",
+                "LAB 1"
+            ],
+            [
+                "BCHMA(Pr)",
+                "Sir (Dr.) HG LYNGDOH Sir T CHALLAM Sir VM WANN Madam (Dr.) S NONGRUM",
+                "LAB 1"
+            ],
+            [
+                "BITMA(Pr)",
+                "Sir (Dr.) S THABAH Madam L JOHN Madam (Dr.) CE SAWIAN Madam AM SUSNGI",
+                "LAB 1"
+            ],
+            [
+                "BOTMA(Pr)",
+                "Sir SM SYIEMLIEH Madam (Dr.) AK LAKRA",
+                "LAB 1"
+            ],
+            [
+                "CHEMA",
+                "Madam (Dr.) S DIAMAI",
+                "5"
+            ],
+            [
+                "CSCMA(Pr)",
+                "Madam (Dr.) P ROYCHOUDHURY",
+                "LAB 1"
+            ],
+            [
+                "FSCMA(Pr)",
+                "Madam E WANNIANG Sir W TIEWSOH",
+                "Dept."
+            ],
+            [
+                "GELMA(Pr)",
+                "Madam N CHETTRI",
+                "LAB 1"
+            ],
+            [
+                "PHYMA(Pr)",
+                "Sir (Dr.) S SAIKIA Sir VR KHONGWIR",
+                "LAB 1"
+            ],
+            [
+                "STAMA(Pr)",
+                "Madam R HOOJON",
+                "61"
+            ],
+            [
+                "ZOOMA(Pr)",
+                "Madam (Dr.) KRR MIHSILL Sir AD MARBANIANG Faculty Unspecified",
+                "LAB 1"
+            ]
+        ],
+        "11": [
+            [
+                "MUSMA(Pr)",
+                "",
+                "LAB 1"
+            ],
+            [
+                "METMA(Pr)",
+                "Madam (Dr.) RK CHHETRI",
+                "LAB 1"
+            ],
+            [
+                "MVPMA(Pr)",
+                "",
+                "LAB 1"
+            ],
+            [
+                "BCHMA(Pr)",
+                "Sir (Dr.) HG LYNGDOH Sir T CHALLAM Sir VM WANN Madam (Dr.) S NONGRUM",
+                "LAB 1"
+            ],
+            [
+                "BITMA(Pr)",
+                "Sir (Dr.) S THABAH Madam L JOHN Madam (Dr.) CE SAWIAN Madam AM SUSNGI",
+                "LAB 1"
+            ],
+            [
+                "BOTMA(Pr)",
+                "Sir SM SYIEMLIEH Madam (Dr.) AK LAKRA",
+                "LAB 1"
+            ],
+            [
+                "CHEMA",
+                "Madam (Dr.) S DIAMAI",
+                "5"
+            ],
+            [
+                "CSCMA(Pr)",
+                "Madam (Dr.) P ROYCHOUDHURY",
+                "LAB 1"
+            ],
+            [
+                "FSCMA(Pr)",
+                "Madam E WANNIANG Sir W TIEWSOH",
+                "Dept."
+            ],
+            [
+                "GELMA(Pr)",
+                "Madam N CHETTRI",
+                "LAB 1"
+            ],
+            [
+                "PHYMA(Pr)",
+                "Sir VR KHONGWIR Sir (Dr.) S SAIKIA",
+                "LAB 1"
+            ],
+            [
+                "STAMA(Pr)",
+                "Madam R HOOJON",
+                "61"
+            ],
+            [
+                "ZOOMA(Pr)",
+                "Madam (Dr.) KRR MIHSILL Sir AD MARBANIANG Faculty Unspecified",
+                "LAB 1"
+            ],
+            [
+                "COMMA(A)",
+                "Madam I HYNNIEWTA",
+                "54"
+            ],
+            [
+                "V.ED-V-[PHIMA(D)]",
+                "",
+                "#"
+            ],
+            [
+                "V.ED-V-[HISMA(D)]",
+                "",
+                "#"
+            ]
+        ],
+        "12": [
+            [
+                "COMMA(A)",
+                "Madam I DKHAR",
+                "54"
+            ]
+        ],
+        "13": []
+    },
+    {
+        "1": [
+            [
+                "ECOMA(M)",
+                "Madam (Dr.) DS DKHAR",
+                "71"
+            ],
+            [
+                "EDUMA(M)",
+                "Madam GJ KHARBHIH",
+                "70"
+            ],
+            [
+                "ENGMA(M)",
+                "",
+                "32"
+            ],
+            [
+                "HISMA(M)",
+                "Madam (Dr.) M KHARWANLANG",
+                "33"
+            ],
+            [
+                "KHAMA(M)",
+                "Madam D SOHTUN",
+                "46"
+            ],
+            [
+                "PHIMA(M)",
+                "",
+                "64"
+            ],
+            [
+                "POLMA(M)",
+                "Madam GK LAPANG",
+                "56"
+            ],
+            [
+                "COMMA(M)",
+                "Sir S DKHAR",
+                "54"
+            ]
+        ],
+        "2": [
+            [
+                "ECOMA(M)",
+                "Madam (Dr.) DS DKHAR",
+                "71"
+            ],
+            [
+                "EDUMA(M)",
+                "Madam D NONGBRI",
+                "70"
+            ],
+            [
+                "ENGMA(M)",
+                "",
+                "32"
+            ],
+            [
+                "HISMA(M)",
+                "",
+                "33"
+            ],
+            [
+                "KHAMA(M)",
+                "Madam D SOHTUN",
+                "46"
+            ],
+            [
+                "PHIMA(M)",
+                "",
+                "64"
+            ],
+            [
+                "POLMA(M)",
+                "Sir S HYN\u00c3\u2018IEWTA",
+                "56"
+            ],
+            [
+                "COMMA(M)",
+                "Madam AAL NONGPIUR",
+                "54"
+            ]
+        ],
+        "3": [
+            [
+                "ECOMI(M)",
+                "Madam (Dr.) DS DKHAR",
+                "71"
+            ],
+            [
+                "EDUMI(M)",
+                "Madam (Dr.) VV KHRIAM",
+                "33"
+            ],
+            [
+                "ENGMI(M)",
+                "",
+                "37"
+            ],
+            [
+                "HISMI(M)",
+                "Madam (Dr.) M KHARWANLANG",
+                "34"
+            ],
+            [
+                "KHAMI(M)",
+                "Madam D SOHTUN",
+                "23"
+            ],
+            [
+                "PHIMI(M)",
+                "Sir S MUKTIEH",
+                "26"
+            ],
+            [
+                "POLMI(M)",
+                "Sir S HYN\u00c3\u2018IEWTA",
+                "56"
+            ],
+            [
+                "COMMI(M)",
+                "",
+                "55"
+            ]
+        ],
+        "4": [
+            [
+                "ECOMA(M)",
+                "Madam GD PYRTUH",
+                "71"
+            ],
+            [
+                "EDUMA(M)",
+                "Madam IL MAWLONG",
+                "29"
+            ],
+            [
+                "HISMA(M)",
+                "Sir (Dr.) HA HIWALE",
+                "34"
+            ],
+            [
+                "PHIMA(M)",
+                "Madam LC KURBAH",
+                "26"
+            ],
+            [
+                "POLMA(M)",
+                "Sir N KHARLUKHI",
+                "56"
+            ],
+            [
+                "COMMA(M)",
+                "Madam I HYNNIEWTA",
+                "53"
+            ],
+            [
+                "MTHMA",
+                "",
+                "17"
+            ],
+            [
+                "BBAMA",
+                "Sir (Dr.) DF MARBANIANG",
+                "67"
+            ],
+            [
+                "V.ED-V-[ENGMA(M)/KHAMA(M)]",
+                "",
+                "#"
+            ]
+        ],
+        "5": [
+            [
+                "ENGMA(M)",
+                "",
+                "37"
+            ],
+            [
+                "KHAMA(M)",
+                "Madam (Dr.) D BYRSAT",
+                "40"
+            ],
+            [
+                "BCHMA",
+                "Madam (Dr.) BJ MYLLIEMNGAP",
+                "10"
+            ],
+            [
+                "BITMA",
+                "Madam AM SUSNGI",
+                "11"
+            ],
+            [
+                "BOTMA",
+                "Sir D BOKOLIAL",
+                "LAB 1"
+            ],
+            [
+                "CHEMA",
+                "Madam (Dr.) I KHARKONGOR",
+                "5"
+            ],
+            [
+                "CSCMA",
+                "Sir KL SYIEMIONG",
+                "46"
+            ],
+            [
+                "FSCMA",
+                "Madam E WANNIANG",
+                "Dept."
+            ],
+            [
+                "GELMA",
+                "Madam N CHETTRI",
+                "19"
+            ],
+            [
+                "MTHMA",
+                "Sir (Dr.) W KHYLLEP",
+                "17"
+            ],
+            [
+                "PHYMA",
+                "Madam M KHARKONGOR",
+                "8"
+            ],
+            [
+                "STAMA",
+                "Madam B SYIEM",
+                "16"
+            ],
+            [
+                "ZOOMA",
+                "Sir JN SYIEM",
+                "LAB 1"
+            ],
+            [
+                "MUSMA",
+                "",
+                "42"
+            ],
+            [
+                "METMA",
+                "Madam R ISHORARI",
+                "50"
+            ],
+            [
+                "MVPMA",
+                "Sir NDN MAJAW",
+                "49"
+            ],
+            [
+                "BBAMA",
+                "Sir AL WARJRI",
+                "67"
+            ],
+            [
+                "V.ED-V-[COMMA(M)]",
+                "",
+                "#"
+            ],
+            [
+                "V.ED-V-[POLMA(M)]",
+                "",
+                "#"
+            ]
+        ],
+        "6": [
+            [
+                "ECOMI(D)",
+                "Madam (Dr.) SG HYNNIEWTA",
+                "71"
+            ],
+            [
+                "EDUMI(D)",
+                "Madam (Dr.) VV KHRIAM",
+                "32"
+            ],
+            [
+                "ENGMI(D)",
+                "",
+                "34"
+            ],
+            [
+                "HISMI(D)",
+                "Sir BS LYNGDOH",
+                "36"
+            ],
+            [
+                "KHAMI(D)",
+                "Sir BM KHARBANI",
+                "40"
+            ],
+            [
+                "PHIMI(D)",
+                "",
+                "21"
+            ],
+            [
+                "POLMI(D)",
+                "Madam EPF LYNRAH",
+                "54"
+            ],
+            [
+                "COMMI(D)",
+                "Madam AAL NONGPIUR",
+                "56"
+            ],
+            [
+                "BBAMI",
+                "Sir RG PARIAT",
+                "67"
+            ],
+            [
+                "BCHMI",
+                "Sir (Dr.) HG LYNGDOH",
+                "60"
+            ],
+            [
+                "BITMI",
+                "Madam I BOISS",
+                "61"
+            ],
+            [
+                "BOTMI",
+                "Madam (Dr.) B KHARSOHNOH",
+                "LAB 1"
+            ],
+            [
+                "CHEMI",
+                "Sir (Dr.) B KSHIAR",
+                "5"
+            ],
+            [
+                "CSCMI",
+                "Madam (Dr.) MJ THAM",
+                "70"
+            ],
+            [
+                "FSCMI",
+                "Madam E WANNIANG",
+                "Dept."
+            ],
+            [
+                "GELMI",
+                "Madam T MUKHIM",
+                "19"
+            ],
+            [
+                "MTHMI",
+                "Madam P LYNSER",
+                "17"
+            ],
+            [
+                "PHYMI",
+                "Madam M BRAHMA",
+                "8"
+            ],
+            [
+                "STAMI",
+                "Sir (Dr.) SP MARBANIANG",
+                "16"
+            ],
+            [
+                "ZOOMI",
+                "Sir (Dr.) FA LAMARE",
+                "LAB 1"
+            ],
+            [
+                "MUSMI",
+                "",
+                "42"
+            ],
+            [
+                "METMI",
+                "Sir T LIM",
+                "50"
+            ],
+            [
+                "MVPMI",
+                "Madam (Dr.) CKD KHARSHIING",
+                "49"
+            ]
+        ],
+        "7": [
+            [
+                "ECOMI(D)",
+                "Madam (Dr.) DS DKHAR",
+                "71"
+            ],
+            [
+                "EDUMI(D)",
+                "Madam D NONGBRI",
+                "32"
+            ],
+            [
+                "ENGMI(D)",
+                "",
+                "34"
+            ],
+            [
+                "HISMI(D)",
+                "Sir SF KYNTA",
+                "36"
+            ],
+            [
+                "KHAMI(D)",
+                "Madam B LYNGDOH",
+                "40"
+            ],
+            [
+                "PHIMI(D)",
+                "Madam (Dr.) MB SYIEM",
+                "21"
+            ],
+            [
+                "POLMI(D)",
+                "Madam GK LAPANG",
+                "54"
+            ],
+            [
+                "MTHMI",
+                "Sir E SYIEMLIEH",
+                "17"
+            ],
+            [
+                "COMMI(D)",
+                "Madam M DKHAR",
+                "56"
+            ],
+            [
+                "BBAMI",
+                "Sir RG PARIAT",
+                "67"
+            ]
+        ],
+        "8": [
+            [
+                "ECOMA(D)",
+                "Madam GD PYRTUH",
+                "71"
+            ],
+            [
+                "EDUMA(D)",
+                "Madam D NONGBRI",
+                "29"
+            ],
+            [
+                "ENGMA(D)",
+                "",
+                "38"
+            ],
+            [
+                "HISMA(D)",
+                "Sir BS LYNGDOH",
+                "36"
+            ],
+            [
+                "KHAMA(D)",
+                "Madam B LYNGDOH",
+                "23"
+            ],
+            [
+                "PHIMA(D)",
+                "Madam (Dr.) WM NONGBRI",
+                "21"
+            ],
+            [
+                "POLMA(D)",
+                "Sir R DKHAR",
+                "56"
+            ],
+            [
+                "MTHMA",
+                "Madam (Dr.) P BHATTACHARJEE",
+                "17"
+            ],
+            [
+                "BBAMA",
+                "Sir AL WARJRI",
+                "69"
+            ],
+            [
+                "COMMA(D)",
+                "Sir SK PRADHAN",
+                "53"
+            ],
+            [
+                "V.ED-V-[BCHMA/BITMA]",
+                "",
+                "#"
+            ]
+        ],
+        "9": [
+            [
+                "ECOMA(D)",
+                "Madam (Dr.) SG HYNNIEWTA",
+                "71"
+            ],
+            [
+                "EDUMA(D)",
+                "Madam (Dr.) VV KHRIAM",
+                "29"
+            ],
+            [
+                "ENGMA(D)",
+                "",
+                "38"
+            ],
+            [
+                "HISMA(D)",
+                "Sir E LAMARE",
+                "36"
+            ],
+            [
+                "KHAMA(D)",
+                "Sir (Dr.) R WANKHAR",
+                "23"
+            ],
+            [
+                "PHIMA(D)",
+                "Madam (Dr.) WM NONGBRI",
+                "21"
+            ],
+            [
+                "POLMA(D)",
+                "Sir A BHATTACHARJEE",
+                "56"
+            ],
+            [
+                "MTHMA",
+                "Madam P LYNSER",
+                "17"
+            ],
+            [
+                "BBAMA",
+                "Sir AL WARJRI",
+                "69"
+            ],
+            [
+                "COMMA(D)",
+                "Madam I HYNNIEWTA",
+                "53"
+            ],
+            [
+                "MUSMA(Pr)",
+                "",
+                "LAB 1"
+            ],
+            [
+                "METMA(Pr)",
+                "Madam (Dr.) RK CHHETRI",
+                "LAB 1"
+            ],
+            [
+                "MVPMA(Pr)",
+                "Sir NDN MAJAW",
+                "LAB 1"
+            ],
+            [
+                "BCHMA(Pr)",
+                "Sir (Dr.) HG LYNGDOH Sir T CHALLAM Sir VM WANN Madam (Dr.) S NONGRUM",
+                "LAB 1"
+            ],
+            [
+                "BITMA(Pr)",
+                "Madam (Dr.) CE SAWIAN Madam AM SUSNGI Sir (Dr.) S THABAH Madam L JOHN",
+                "LAB 1"
+            ],
+            [
+                "BOTMA(Pr)",
+                "Sir D BOKOLIAL Madam (Dr.) B KHARSOHNOH",
+                "LAB 1"
+            ],
+            [
+                "CHEMA(Pr)",
+                "Madam (Dr.) A SNAITANG Sir (Dr.) B KSHIAR",
+                "LAB 1"
+            ],
+            [
+                "CSCMA(Pr)",
+                "Madam (Dr.) P ROYCHOUDHURY",
+                "LAB 1"
+            ],
+            [
+                "FSCMA(Pr)",
+                "Madam (Dr.) SMB KHARBULI Sir (Dr.) R NATH",
+                "Dept."
+            ],
+            [
+                "GELMA(Pr)",
+                "Madam N CHETTRI",
+                "LAB 1"
+            ],
+            [
+                "PHYMA(Pr)",
+                "Sir (Dr.) S CHUTIA Madam M KHARKONGOR",
+                "LAB 1"
+            ],
+            [
+                "STAMA(Pr)",
+                "Sir (Dr.) SP MARBANIANG Faculty Unspecified",
+                "61"
+            ],
+            [
+                "ZOOMA(Pr)",
+                "Madam (Dr.) KRR MIHSILL Sir AD MARBANIANG Sir JN SYIEM",
+                "LAB 1"
+            ]
+        ],
+        "10": [
+            [
+                "ECOMA(D)",
+                "Madam (Dr.) SG HYNNIEWTA",
+                "71"
+            ],
+            [
+                "EDUMA(D)",
+                "Madam G MARBANIANG",
+                "29"
+            ],
+            [
+                "HISMA(D)",
+                "Madam (Dr.) SC LAMARE",
+                "36"
+            ],
+            [
+                "PHIMA(D)",
+                "Madam (Dr.) MB SYIEM",
+                "21"
+            ],
+            [
+                "POLMA(D)",
+                "Sir RE KHARBANI",
+                "56"
+            ],
+            [
+                "MUSMA(Pr)",
+                "",
+                "LAB 1"
+            ],
+            [
+                "METMA(Pr)",
+                "Madam (Dr.) RK CHHETRI",
+                "LAB 1"
+            ],
+            [
+                "MVPMA(Pr)",
+                "Sir NDN MAJAW",
+                "LAB 1"
+            ],
+            [
+                "BCHMA(Pr)",
+                "Sir (Dr.) HG LYNGDOH Sir T CHALLAM Sir VM WANN Madam (Dr.) S NONGRUM",
+                "LAB 1"
+            ],
+            [
+                "BITMA(Pr)",
+                "Sir (Dr.) S THABAH Madam L JOHN Madam AM SUSNGI Madam (Dr.) CE SAWIAN",
+                "LAB 1"
+            ],
+            [
+                "BOTMA(Pr)",
+                "Sir D BOKOLIAL Madam (Dr.) B KHARSOHNOH",
+                "LAB 1"
+            ],
+            [
+                "CHEMA(Pr)",
+                "Madam (Dr.) A SNAITANG Sir (Dr.) B KSHIAR",
+                "LAB 1"
+            ],
+            [
+                "CSCMA(Pr)",
+                "Madam (Dr.) P ROYCHOUDHURY",
+                "LAB 1"
+            ],
+            [
+                "FSCMA(Pr)",
+                "Madam (Dr.) SMB KHARBULI Sir (Dr.) R NATH",
+                "Dept."
+            ],
+            [
+                "GELMA(Pr)",
+                "Madam V DIENGDOH",
+                "LAB 1"
+            ],
+            [
+                "PHYMA(Pr)",
+                "Sir (Dr.) D KHARKONGOR Madam M BRAHMA",
+                "LAB 1"
+            ],
+            [
+                "STAMA(Pr)",
+                "Sir (Dr.) SP MARBANIANG Faculty Unspecified",
+                "61"
+            ],
+            [
+                "ZOOMA(Pr)",
+                "Madam (Dr.) KRR MIHSILL Sir AD MARBANIANG Sir JN SYIEM",
+                "LAB 1"
+            ]
+        ],
+        "11": [
+            [
+                "ENGMA(D)",
+                "",
+                "38"
+            ],
+            [
+                "KHAMA(D)",
+                "Sir (Dr.) T LYNSHING",
+                "23"
+            ],
+            [
+                "COMMA(D)",
+                "Madam AS MALNGIANG",
+                "53"
+            ],
+            [
+                "MUSMA(Pr)",
+                "",
+                "LAB 1"
+            ],
+            [
+                "METMA(Pr)",
+                "Madam (Dr.) RK CHHETRI",
+                "LAB 1"
+            ],
+            [
+                "MVPMA(Pr)",
+                "Sir NDN MAJAW",
+                "LAB 1"
+            ],
+            [
+                "BCHMA(Pr)",
+                "Sir (Dr.) HG LYNGDOH Sir T CHALLAM Sir VM WANN Madam (Dr.) S NONGRUM",
+                "LAB 1"
+            ],
+            [
+                "BITMA(Pr)",
+                "Madam L JOHN Sir (Dr.) S THABAH Madam (Dr.) CE SAWIAN Madam AM SUSNGI",
+                "LAB 1"
+            ],
+            [
+                "BOTMA(Pr)",
+                "Sir D BOKOLIAL Madam (Dr.) B KHARSOHNOH",
+                "LAB 1"
+            ],
+            [
+                "CHEMA(Pr)",
+                "Madam (Dr.) A SNAITANG Sir (Dr.) B KSHIAR",
+                "LAB 1"
+            ],
+            [
+                "CSCMA(Pr)",
+                "Madam (Dr.) P ROYCHOUDHURY",
+                "LAB 1"
+            ],
+            [
+                "FSCMA(Pr)",
+                "Madam (Dr.) SMB KHARBULI Madam E WANNIANG",
+                "Dept."
+            ],
+            [
+                "GELMA(Pr)",
+                "Madam V DIENGDOH",
+                "LAB 1"
+            ],
+            [
+                "PHYMA(Pr)",
+                "Sir F IAWPHNIAW Sir (Dr.) S CHUTIA",
+                "LAB 1"
+            ],
+            [
+                "STAMA(Pr)",
+                "Sir (Dr.) SP MARBANIANG Faculty Unspecified",
+                "61"
+            ],
+            [
+                "ZOOMA(Pr)",
+                "Madam (Dr.) KRR MIHSILL Sir AD MARBANIANG Sir JN SYIEM",
+                "LAB 1"
+            ],
+            [
+                "COMMA(A)",
+                "Madam I HYNNIEWTA Sir A SYIEMLIEH",
+                "59"
+            ]
+        ],
+        "12": [
+            [
+                "COMMA(A)",
+                "Madam A SYIEM",
+                "59"
+            ]
+        ],
+        "13": []
+    },
+    {
+        "1": [
+            [
+                "ECOMA(M)",
+                "Madam (Dr.) SG HYNNIEWTA",
+                "71"
+            ],
+            [
+                "EDUMA(M)",
+                "Madam D NONGBRI",
+                "70"
+            ],
+            [
+                "ENGMA(M)",
+                "",
+                "32"
+            ],
+            [
+                "HISMA(M)",
+                "Sir (Dr.) HA HIWALE",
+                "33"
+            ],
+            [
+                "KHAMA(M)",
+                "Sir BP KHARUMNUID",
+                "46"
+            ],
+            [
+                "PHIMA(M)",
+                "",
+                "64"
+            ],
+            [
+                "POLMA(M)",
+                "Madam GK LAPANG",
+                "56"
+            ],
+            [
+                "COMMA(M)",
+                "Madam M DKHAR",
+                "59"
+            ]
+        ],
+        "2": [
+            [
+                "ECOMA(M)",
+                "Madam (Dr.) SG HYNNIEWTA",
+                "71"
+            ],
+            [
+                "EDUMA(M)",
+                "Madam DL MAWLONG",
+                "70"
+            ],
+            [
+                "ENGMA(M)",
+                "",
+                "32"
+            ],
+            [
+                "HISMA(M)",
+                "",
+                "33"
+            ],
+            [
+                "KHAMA(M)",
+                "Sir BM KHARBANI",
+                "46"
+            ],
+            [
+                "PHIMA(M)",
+                "Sir S MUKTIEH",
+                "64"
+            ],
+            [
+                "POLMA(M)",
+                "Sir R DKHAR",
+                "56"
+            ],
+            [
+                "COMMA(M)",
+                "Madam I HYNNIEWTA",
+                "59"
+            ]
+        ],
+        "3": [
+            [
+                "ECOMI(M)",
+                "Madam (Dr.) DS DKHAR",
+                "71"
+            ],
+            [
+                "EDUMI(M)",
+                "Madam IL MAWLONG",
+                "33"
+            ],
+            [
+                "ENGMI(M)",
+                "",
+                "37"
+            ],
+            [
+                "HISMI(M)",
+                "Sir (Dr.) HA HIWALE",
+                "34"
+            ],
+            [
+                "KHAMI(M)",
+                "Sir BP KHARUMNUID",
+                "23"
+            ],
+            [
+                "PHIMI(M)",
+                "Madam LC KURBAH",
+                "26"
+            ],
+            [
+                "POLMI(M)",
+                "Madam GK LAPANG",
+                "56"
+            ],
+            [
+                "COMMI(M)",
+                "",
+                "55"
+            ]
+        ],
+        "4": [
+            [
+                "COMMI(M)",
+                "",
+                "60"
+            ],
+            [
+                "V.ED-V-[METMA/MVPMA]",
+                "",
+                "#"
+            ],
+            [
+                "V.ED-V-[BBAMA/MUSMA]",
+                "",
+                "#"
+            ]
+        ],
+        "5": [
+            [
+                "BBAMA",
+                "Sir AL WARJRI",
+                "67"
+            ],
+            [
+                "MUSMA",
+                "",
+                "43"
+            ],
+            [
+                "METMA",
+                "Madam R ISHORARI",
+                "50"
+            ],
+            [
+                "MVPMA",
+                "Madam R ISHORARI",
+                "49"
+            ],
+            [
+                "BCHMA",
+                "Sir (Dr.) HG LYNGDOH",
+                "10"
+            ],
+            [
+                "BITMA",
+                "Madam L JOHN",
+                "11"
+            ],
+            [
+                "BOTMA",
+                "Sir SM SYIEMLIEH",
+                "LAB 1"
+            ],
+            [
+                "CHEMA",
+                "Madam (Dr.) A SNAITANG",
+                "5"
+            ],
+            [
+                "CSCMA",
+                "Sir KL SYIEMIONG",
+                "46"
+            ],
+            [
+                "FSCMA",
+                "Sir (Dr.) R NATH",
+                "Dept."
+            ],
+            [
+                "GELMA",
+                "Madam V DIENGDOH",
+                "19"
+            ],
+            [
+                "PHYMA",
+                "Sir (Dr.) S CHUTIA",
+                "8"
+            ],
+            [
+                "STAMA",
+                "Madam R HOOJON",
+                "61"
+            ],
+            [
+                "ZOOMA",
+                "Madam (Dr.) KRR MIHSILL",
+                "LAB 1"
+            ],
+            [
+                "MTHMA",
+                "Madam P LYNSER",
+                "17"
+            ],
+            [
+                "V.ED-V-[HISMA(M)]",
+                "",
+                "#"
+            ],
+            [
+                "V.ED-V-[ECOMA(M)/PHIMA(M)]",
+                "",
+                "#"
+            ]
+        ],
+        "6": [
+            [
+                "ECOMI(D)",
+                "Madam (Dr.) B MAWKHIEW",
+                "71"
+            ],
+            [
+                "EDUMI(D)",
+                "Madam G MARBANIANG",
+                "32"
+            ],
+            [
+                "ENGMI(D)",
+                "",
+                "34"
+            ],
+            [
+                "HISMI(D)",
+                "Madam (Dr.) SC LAMARE",
+                "35"
+            ],
+            [
+                "KHAMI(D)",
+                "Madam S WARBAH",
+                "41"
+            ],
+            [
+                "PHIMI(D)",
+                "Madam (Dr.) G ZIRSANGLIANI",
+                "21"
+            ],
+            [
+                "POLMI(D)",
+                "Sir S HYN\u00c3\u2018IEWTA",
+                "54"
+            ],
+            [
+                "BBAMI",
+                "Sir RG PARIAT",
+                "68"
+            ],
+            [
+                "COMMI(D)",
+                "Madam AAL NONGPIUR",
+                "55"
+            ],
+            [
+                "MUSMI",
+                "",
+                "43"
+            ],
+            [
+                "METMI",
+                "Sir T LIM",
+                "49"
+            ],
+            [
+                "MVPMI",
+                "Madam (Dr.) CKD KHARSHIING",
+                "50"
+            ],
+            [
+                "BCHMI",
+                "Sir (Dr.) HG LYNGDOH",
+                "10"
+            ],
+            [
+                "BITMI",
+                "Sir PIL NONGBRI",
+                "11"
+            ],
+            [
+                "BOTMI",
+                "Madam (Dr.) B KHARSOHNOH",
+                "LAB 1"
+            ],
+            [
+                "CHEMI",
+                "Sir M CHAKRABARTY",
+                "5"
+            ],
+            [
+                "CSCMI",
+                "Madam (Dr.) MJ THAM",
+                "46"
+            ],
+            [
+                "FSCMI",
+                "Madam (Dr.) SMB KHARBULI",
+                "Dept."
+            ],
+            [
+                "GELMI",
+                "Madam N CHETTRI",
+                "19"
+            ],
+            [
+                "PHYMI",
+                "Madam M BRAHMA",
+                "7"
+            ],
+            [
+                "STAMI",
+                "Faculty Unspecified",
+                "8"
+            ],
+            [
+                "ZOOMI",
+                "Faculty Unspecified",
+                "LAB 1"
+            ],
+            [
+                "MTHMI",
+                "Madam W NONGBSAP",
+                "17"
+            ]
+        ],
+        "7": [
+            [
+                "BBAMA",
+                "Sir (Dr.) DF MARBANIANG",
+                "67"
+            ],
+            [
+                "MUSMA",
+                "Sir (Dr.) DF MARBANIANG",
+                "43"
+            ],
+            [
+                "METMA",
+                "Madam R ISHORARI",
+                "50"
+            ],
+            [
+                "MVPMA",
+                "Madam (Dr.) E SAIBORNE Madam DJ KHONGWIR",
+                "49"
+            ],
+            [
+                "BCHMA",
+                "Madam (Dr.) S NONGRUM",
+                "32"
+            ],
+            [
+                "BITMA",
+                "Madam (Dr.) CE SAWIAN",
+                "33"
+            ],
+            [
+                "BOTMA",
+                "Sir D BOKOLIAL",
+                "LAB 1"
+            ],
+            [
+                "CHEMA",
+                "Madam (Dr.) M SAWKMIE",
+                "5"
+            ],
+            [
+                "CSCMA",
+                "Sir (Dr.) A DAS",
+                "46"
+            ],
+            [
+                "FSCMA",
+                "Sir (Dr.) R NATH",
+                "Dept."
+            ],
+            [
+                "GELMA",
+                "Madam N CHETTRI",
+                "17"
+            ],
+            [
+                "PHYMA",
+                "Madam M KHARKONGOR",
+                "6"
+            ],
+            [
+                "STAMA",
+                "Sir (Dr.) SP MARBANIANG",
+                "61"
+            ],
+            [
+                "ZOOMA",
+                "Sir AD MARBANIANG",
+                "LAB 1"
+            ],
+            [
+                "MTHMA",
+                "Madam (Dr.) P BHATTACHARJEE",
+                "29"
+            ]
+        ],
+        "8": [
+            [
+                "HISMA(D)",
+                "Madam (Dr.) SC LAMARE",
+                "36"
+            ],
+            [
+                "KHAMA(D)",
+                "Madam (Dr.) D BYRSAT",
+                "23"
+            ],
+            [
+                "PHIMA(D)",
+                "Madam (Dr.) MB SYIEM",
+                "21"
+            ],
+            [
+                "POLMA(D)",
+                "Sir N KHARLUKHI",
+                "56"
+            ],
+            [
+                "MTHMA",
+                "Madam W NONGBSAP",
+                "17"
+            ],
+            [
+                "BBAMA",
+                "Sir (Dr.) DF MARBANIANG",
+                "69"
+            ],
+            [
+                "COMMA(D)",
+                "Madam AAL NONGPIUR",
+                "53"
+            ],
+            [
+                "BCHMA",
+                "Sir VM WANN",
+                "42"
+            ],
+            [
+                "BITMA",
+                "Sir (Dr.) S THABAH",
+                "3"
+            ],
+            [
+                "BOTMA",
+                "Sir AK DAS",
+                "LAB 1"
+            ],
+            [
+                "CHEMA",
+                "Sir F DIENGDOH",
+                "5"
+            ],
+            [
+                "CSCMA",
+                "Sir KL SYIEMIONG",
+                "46"
+            ],
+            [
+                "FSCMA",
+                "Sir W TIEWSOH",
+                "Dept."
+            ],
+            [
+                "GELMA",
+                "Madam V DIENGDOH",
+                "LAB 1"
+            ],
+            [
+                "PHYMA",
+                "Sir (Dr.) D KHARKONGOR",
+                "6"
+            ],
+            [
+                "STAMA",
+                "Faculty Unspecified",
+                "61"
+            ],
+            [
+                "ZOOMA",
+                "Madam (Dr.) KRR MIHSILL Sir AD MARBANIANG Sir JN SYIEM",
+                "LAB 1"
+            ],
+            [
+                "V.ED-V-[ECOMA(D)/EDUMA(D)]",
+                "",
+                "#"
+            ]
+        ],
+        "9": [
+            [
+                "ECOMA(D)",
+                "Madam (Dr.) B MAWKHIEW",
+                "71"
+            ],
+            [
+                "EDUMA(D)",
+                "Madam (Dr.) VV KHRIAM",
+                "29"
+            ],
+            [
+                "HISMA(D)",
+                "Sir E LAMARE",
+                "36"
+            ],
+            [
+                "PHIMA(D)",
+                "Madam (Dr.) MB SYIEM",
+                "21"
+            ],
+            [
+                "POLMA(D)",
+                "Sir A BHATTACHARJEE",
+                "56"
+            ],
+            [
+                "MTHMA",
+                "Sir JM SUN",
+                "17"
+            ],
+            [
+                "BBAMA",
+                "Sir AL WARJRI",
+                "69"
+            ],
+            [
+                "COMMA(D)",
+                "Madam I HYNNIEWTA",
+                "53"
+            ],
+            [
+                "MUSMA(Pr)",
+                "",
+                "LAB 1"
+            ],
+            [
+                "METMA(Pr)",
+                "Madam (Dr.) RK CHHETRI",
+                "LAB 1"
+            ],
+            [
+                "MVPMA(Pr)",
+                "Sir NDN MAJAW",
+                "LAB 1"
+            ],
+            [
+                "BCHMA(Pr)",
+                "Sir (Dr.) HG LYNGDOH Sir T CHALLAM Sir VM WANN",
+                "LAB 1"
+            ],
+            [
+                "BITMA(Pr)",
+                "Sir (Dr.) S THABAH Madam L JOHN Madam AM SUSNGI Madam (Dr.) CE SAWIAN Sir PIL NONGBRI",
+                "LAB 1"
+            ],
+            [
+                "BOTMA(Pr)",
+                "Sir AK DAS Madam (Dr.) B KHARSOHNOH",
+                "LAB 1"
+            ],
+            [
+                "CHEMA(Pr)",
+                "Madam (Dr.) A SNAITANG Sir (Dr.) B KSHIAR",
+                "LAB 1"
+            ],
+            [
+                "CSCMA(Pr)",
+                "Madam (Dr.) P ROYCHOUDHURY",
+                "LAB 1"
+            ],
+            [
+                "FSCMA(Pr)",
+                "Madam E WANNIANG Sir W TIEWSOH",
+                "Dept."
+            ],
+            [
+                "GELMA(Pr)",
+                "Madam N CHETTRI",
+                "LAB 1"
+            ],
+            [
+                "PHYMA(Pr)",
+                "Madam M KHARKONGOR Madam M BRAHMA",
+                "LAB 1"
+            ],
+            [
+                "STAMA(Pr)",
+                "Madam B SYIEM",
+                "61"
+            ],
+            [
+                "ZOOMA(Pr)",
+                "Sir (Dr.) FA LAMARE Madam (Dr.) B MASSAR Faculty Unspecified",
+                "LAB 1"
+            ],
+            [
+                "V.ED-V-[ENGMA(D)/KHAMA(D)]",
+                "",
+                "#"
+            ]
+        ],
+        "10": [
+            [
+                "ECOMA(D)",
+                "Sir (Dr.) A NONGSPUNG",
+                "71"
+            ],
+            [
+                "EDUMA(D)",
+                "Madam (Dr.) VV KHRIAM",
+                "29"
+            ],
+            [
+                "ENGMA(D)",
+                "",
+                "38"
+            ],
+            [
+                "HISMA(D)",
+                "Sir BS LYNGDOH",
+                "36"
+            ],
+            [
+                "KHAMA(D)",
+                "Madam D SOHTUN",
+                "23"
+            ],
+            [
+                "PHIMA(D)",
+                "Madam (Dr.) MB SYIEM",
+                "21"
+            ],
+            [
+                "POLMA(D)",
+                "Madam EPF LYNRAH",
+                "56"
+            ],
+            [
+                "COMMA(D)",
+                "Sir S DKHAR",
+                "53"
+            ],
+            [
+                "MUSMA(Pr)",
+                "",
+                "LAB 1"
+            ],
+            [
+                "METMA(Pr)",
+                "Madam (Dr.) RK CHHETRI",
+                "LAB 1"
+            ],
+            [
+                "MVPMA(Pr)",
+                "Sir NDN MAJAW",
+                "LAB 1"
+            ],
+            [
+                "BCHMA(Pr)",
+                "Sir (Dr.) HG LYNGDOH Sir T CHALLAM Sir VM WANN",
+                "LAB 1"
+            ],
+            [
+                "BITMA(Pr)",
+                "Sir (Dr.) S THABAH Madam L JOHN Madam (Dr.) CE SAWIAN Madam AM SUSNGI Sir PIL NONGBRI",
+                "LAB 1"
+            ],
+            [
+                "BOTMA(Pr)",
+                "Sir AK DAS Madam (Dr.) B KHARSOHNOH",
+                "LAB 1"
+            ],
+            [
+                "CHEMA(Pr)",
+                "Madam (Dr.) A SNAITANG Sir (Dr.) B KSHIAR",
+                "LAB 1"
+            ],
+            [
+                "CSCMA(Pr)",
+                "Madam (Dr.) P ROYCHOUDHURY",
+                "LAB 1"
+            ],
+            [
+                "FSCMA(Pr)",
+                "Madam E WANNIANG Sir W TIEWSOH",
+                "Dept."
+            ],
+            [
+                "GELMA(Pr)",
+                "Madam N CHETTRI",
+                "LAB 1"
+            ],
+            [
+                "PHYMA(Pr)",
+                "Madam M KHARKONGOR Madam M BRAHMA",
+                "LAB 1"
+            ],
+            [
+                "STAMA(Pr)",
+                "Madam B SYIEM",
+                "61"
+            ],
+            [
+                "ZOOMA(Pr)",
+                "Sir (Dr.) FA LAMARE Madam (Dr.) B MASSAR Faculty Unspecified",
+                "LAB 1"
+            ]
+        ],
+        "11": [
+            [
+                "ECOMA(D)",
+                "Sir (Dr.) A NONGSPUNG",
+                "71"
+            ],
+            [
+                "EDUMA(D)",
+                "Madam G MARBANIANG",
+                "29"
+            ],
+            [
+                "ENGMA(D)",
+                "",
+                "38"
+            ],
+            [
+                "KHAMA(D)",
+                "Madam D SOHTUN",
+                "23"
+            ],
+            [
+                "MUSMA(Pr)",
+                "",
+                "LAB 1"
+            ],
+            [
+                "METMA(Pr)",
+                "Madam (Dr.) RK CHHETRI",
+                "LAB 1"
+            ],
+            [
+                "MVPMA(Pr)",
+                "Sir NDN MAJAW",
+                "LAB 1"
+            ],
+            [
+                "BCHMA(Pr)",
+                "Sir T CHALLAM Sir VM WANN Sir (Dr.) HG LYNGDOH",
+                "LAB 1"
+            ],
+            [
+                "BITMA(Pr)",
+                "Madam AM SUSNGI Madam (Dr.) CE SAWIAN Madam L JOHN Sir (Dr.) S THABAH Sir PIL NONGBRI",
+                "LAB 1"
+            ],
+            [
+                "BOTMA(Pr)",
+                "Sir AK DAS Madam (Dr.) B KHARSOHNOH",
+                "LAB 1"
+            ],
+            [
+                "CHEMA(Pr)",
+                "Madam (Dr.) A SNAITANG Sir (Dr.) B KSHIAR",
+                "LAB 1"
+            ],
+            [
+                "CSCMA(Pr)",
+                "Madam (Dr.) P ROYCHOUDHURY",
+                "LAB 1"
+            ],
+            [
+                "FSCMA(Pr)",
+                "Madam E WANNIANG Sir W TIEWSOH",
+                "Dept."
+            ],
+            [
+                "GELMA(Pr)",
+                "Madam N CHETTRI",
+                "LAB 1"
+            ],
+            [
+                "PHYMA(Pr)",
+                "Sir (Dr.) D KHARKONGOR Sir F IAWPHNIAW",
+                "LAB 1"
+            ],
+            [
+                "STAMA(Pr)",
+                "Madam B SYIEM",
+                "61"
+            ],
+            [
+                "ZOOMA(Pr)",
+                "Sir (Dr.) FA LAMARE Madam (Dr.) B MASSAR Faculty Unspecified",
+                "LAB 1"
+            ],
+            [
+                "COMMA(A)",
+                "Faculty Unspecified Madam I HYNNIEWTA",
+                "59"
+            ]
+        ],
+        "12": [
+            [
+                "COMMA(A)",
+                "Sir RL NONGLAIT",
+                "59"
+            ]
+        ],
+        "13": []
+    },
+    {
+        "1": [
+            [
+                "ECOMA(M)",
+                "Sir DE CHALLAM",
+                "71"
+            ],
+            [
+                "EDUMA(M)",
+                "Madam (Dr.) VV KHRIAM",
+                "70"
+            ],
+            [
+                "ENGMA(M)",
+                "",
+                "32"
+            ],
+            [
+                "HISMA(M)",
+                "Madam (Dr.) M KHARWANLANG",
+                "33"
+            ],
+            [
+                "KHAMA(M)",
+                "Madam S WARBAH",
+                "49"
+            ],
+            [
+                "PHIMA(M)",
+                "Sir S MUKTIEH Madam S WARBAH",
+                "64"
+            ],
+            [
+                "POLMA(M)",
+                "Sir R DKHAR",
+                "56"
+            ],
+            [
+                "COMMA(M)",
+                "Madam M DKHAR",
+                "54"
+            ]
+        ],
+        "2": [
+            [
+                "ECOMA(M)",
+                "Sir DE CHALLAM",
+                "71"
+            ],
+            [
+                "EDUMA(M)",
+                "Madam IL MAWLONG",
+                "70"
+            ],
+            [
+                "ENGMA(M)",
+                "",
+                "32"
+            ],
+            [
+                "HISMA(M)",
+                "Sir (Dr.) HA HIWALE",
+                "33"
+            ],
+            [
+                "KHAMA(M)",
+                "Sir (Dr.) R WANKHAR",
+                "49"
+            ],
+            [
+                "PHIMA(M)",
+                "",
+                "64"
+            ],
+            [
+                "POLMA(M)",
+                "Sir A BHATTACHARJEE",
+                "56"
+            ],
+            [
+                "COMMA(M)",
+                "Sir AS KHARBULI",
+                "54"
+            ]
+        ],
+        "3": [
+            [
+                "MUSMA",
+                "Madam (Dr.) KK DAS",
+                "43"
+            ],
+            [
+                "METMA",
+                "Madam R ISHORARI",
+                "50"
+            ],
+            [
+                "MVPMA",
+                "Madam (Dr.) E SAIBORNE Madam DJ KHONGWIR",
+                "59"
+            ],
+            [
+                "BCHMA",
+                "Sir VM WANN",
+                "10"
+            ],
+            [
+                "BITMA",
+                "Madam (Dr.) CE SAWIAN",
+                "11"
+            ],
+            [
+                "BOTMA",
+                "Sir D BOKOLIAL",
+                "LAB 1"
+            ],
+            [
+                "CHEMA",
+                "Madam (Dr.) I KHARKONGOR",
+                "5"
+            ],
+            [
+                "CSCMA",
+                "Sir (Dr.) A DAS",
+                "46"
+            ],
+            [
+                "FSCMA",
+                "Sir W TIEWSOH",
+                "Dept."
+            ],
+            [
+                "GELMA",
+                "Sir D KASSAR",
+                "17"
+            ],
+            [
+                "MTHMA",
+                "Madam W NONGBSAP",
+                "16"
+            ],
+            [
+                "PHYMA",
+                "Sir (Dr.) S CHUTIA",
+                "8"
+            ],
+            [
+                "STAMA",
+                "Madam B SYIEM",
+                "61"
+            ],
+            [
+                "ZOOMA",
+                "Madam (Dr.) B MASSAR",
+                "LAB 1"
+            ],
+            [
+                "BBAMA",
+                "Sir (Dr.) DF MARBANIANG",
+                "67"
+            ],
+            [
+                "V.ED-V-[EDUMA(M)]",
+                "",
+                "#"
+            ]
+        ],
+        "4": [
+            [
+                "ECOMA(M)",
+                "Madam (Dr.) B MAWKHIEW",
+                "71"
+            ],
+            [
+                "EDUMA(M)",
+                "Madam DL MAWLONG",
+                "29"
+            ],
+            [
+                "ENGMA(M)",
+                "",
+                "37"
+            ],
+            [
+                "HISMA(M)",
+                "Madam (Dr.) M KHARWANLANG",
+                "34"
+            ],
+            [
+                "KHAMA(M)",
+                "Sir (Dr.) T LYNSHING",
+                "23"
+            ],
+            [
+                "PHIMA(M)",
+                "",
+                "26"
+            ],
+            [
+                "POLMA(M)",
+                "Sir S HYN\u00c3\u2018IEWTA",
+                "56"
+            ],
+            [
+                "COMMA(M)",
+                "Madam I HYNNIEWTA",
+                "53"
+            ],
+            [
+                "MUSMA",
+                "Madam BP SHADAP",
+                "43"
+            ],
+            [
+                "METMA",
+                "Madam R ISHORARI",
+                "50"
+            ],
+            [
+                "MVPMA",
+                "Madam (Dr.) E SAIBORNE Madam DJ KHONGWIR",
+                "59"
+            ],
+            [
+                "BCHMA",
+                "Sir T CHALLAM",
+                "10"
+            ],
+            [
+                "BITMA",
+                "Sir (Dr.) S THABAH",
+                "11"
+            ],
+            [
+                "BOTMA",
+                "Sir D BOKOLIAL",
+                "LAB 1"
+            ],
+            [
+                "CHEMA",
+                "Madam (Dr.) M SAWKMIE",
+                "5"
+            ],
+            [
+                "CSCMA",
+                "Sir KL SYIEMIONG",
+                "46"
+            ],
+            [
+                "FSCMA",
+                "Madam E WANNIANG",
+                "Dept."
+            ],
+            [
+                "GELMA",
+                "Sir D KASSAR",
+                "17"
+            ],
+            [
+                "MTHMA",
+                "Madam P LYNSER",
+                "16"
+            ],
+            [
+                "PHYMA",
+                "Sir F IAWPHNIAW",
+                "8"
+            ],
+            [
+                "STAMA",
+                "Madam B SYIEM",
+                "61"
+            ],
+            [
+                "ZOOMA",
+                "Madam (Dr.) B MASSAR",
+                "LAB 1"
+            ],
+            [
+                "BBAMA",
+                "Sir AL WARJRI",
+                "67"
+            ]
+        ],
+        "5": [
+            [
+                "MUSMA",
+                "Sir PS MARAK",
+                "43"
+            ],
+            [
+                "METMA",
+                "Madam R ISHORARI",
+                "50"
+            ],
+            [
+                "MVPMA",
+                "Madam R ISHORARI",
+                "49"
+            ],
+            [
+                "BCHMA",
+                "Sir (Dr.) HG LYNGDOH",
+                "10"
+            ],
+            [
+                "BITMA",
+                "Madam L JOHN",
+                "11"
+            ],
+            [
+                "BOTMA",
+                "Sir AK DAS",
+                "LAB 1"
+            ],
+            [
+                "CHEMA",
+                "Madam (Dr.) A SNAITANG",
+                "5"
+            ],
+            [
+                "CSCMA",
+                "Madam (Dr.) P ROYCHOUDHURY",
+                "46"
+            ],
+            [
+                "FSCMA",
+                "Madam E WANNIANG",
+                "Dept."
+            ],
+            [
+                "GELMA",
+                "Madam N CHETTRI",
+                "19"
+            ],
+            [
+                "MTHMA",
+                "Sir JM SUN",
+                "17"
+            ],
+            [
+                "PHYMA",
+                "Madam M BRAHMA",
+                "8"
+            ],
+            [
+                "STAMA",
+                "Madam R HOOJON",
+                "61"
+            ],
+            [
+                "ZOOMA",
+                "Sir (Dr.) FA LAMARE Madam (Dr.) B MASSAR",
+                "LAB 1"
+            ],
+            [
+                "BBAMA",
+                "Sir AL WARJRI",
+                "67"
+            ],
+            [
+                "V.ED-V-[COMMA(D)]",
+                "",
+                "#"
+            ],
+            [
+                "V.ED-V-[POLMA(D)]",
+                "",
+                "#"
+            ]
+        ],
+        "6": [
+            [
+                "ECOMI(D)",
+                "Madam (Dr.) DS DKHAR",
+                "71"
+            ],
+            [
+                "EDUMI(D)",
+                "Madam (Dr.) VV KHRIAM",
+                "29"
+            ],
+            [
+                "ENGMI(D)",
+                "",
+                "37"
+            ],
+            [
+                "HISMI(D)",
+                "Sir BS LYNGDOH",
+                "34"
+            ],
+            [
+                "KHAMI(D)",
+                "Madam D SOHTUN",
+                "40"
+            ],
+            [
+                "PHIMI(D)",
+                "Sir A DOHTDONG",
+                "21"
+            ],
+            [
+                "POLMI(D)",
+                "Sir A BHATTACHARJEE",
+                "56"
+            ],
+            [
+                "COMMI(D)",
+                "Madam AAL NONGPIUR",
+                "55"
+            ],
+            [
+                "MUSMI",
+                "Sir L PHAWA",
+                "43"
+            ],
+            [
+                "METMI",
+                "Sir T LIM",
+                "50"
+            ],
+            [
+                "MVPMI",
+                "Madam (Dr.) CKD KHARSHIING",
+                "49"
+            ],
+            [
+                "BCHMI",
+                "Sir (Dr.) HG LYNGDOH",
+                "10"
+            ],
+            [
+                "BITMI",
+                "Sir (Dr.) S THABAH",
+                "11"
+            ],
+            [
+                "BOTMI",
+                "Madam E NONGBRI",
+                "LAB 1"
+            ],
+            [
+                "CHEMI",
+                "Madam (Dr.) A SNAITANG",
+                "5"
+            ],
+            [
+                "CSCMI",
+                "Madam (Dr.) MJ THAM",
+                "46"
+            ],
+            [
+                "FSCMI",
+                "Faculty Unspecified",
+                "Dept."
+            ],
+            [
+                "GELMI",
+                "Madam T MUKHIM",
+                "19"
+            ],
+            [
+                "MTHMI",
+                "Madam P LYNSER",
+                "17"
+            ],
+            [
+                "PHYMI",
+                "Sir (Dr.) S CHUTIA",
+                "8"
+            ],
+            [
+                "STAMI",
+                "Faculty Unspecified",
+                "60"
+            ],
+            [
+                "ZOOMI",
+                "Sir JN SYIEM",
+                "LAB 1"
+            ],
+            [
+                "BBAMI",
+                "Sir RG PARIAT",
+                "67"
+            ]
+        ],
+        "7": [
+            [
+                "MUSMA",
+                "Sir FC KHARMUTEE Sir MN SANGMA Sir A SYIEMLIEH Sir H SYIEMLIEH Madam B KHONGNOH",
+                "43"
+            ],
+            [
+                "METMA",
+                "Madam R ISHORARI",
+                "49"
+            ],
+            [
+                "MVPMA",
+                "Madam R ISHORARI",
+                "50"
+            ],
+            [
+                "BCHMA",
+                "Madam (Dr.) S NONGRUM",
+                "10"
+            ],
+            [
+                "BITMA",
+                "Madam AM SUSNGI",
+                "11"
+            ],
+            [
+                "BOTMA",
+                "Sir AK DAS",
+                "LAB 1"
+            ],
+            [
+                "CHEMA",
+                "Sir M CHAKRABARTY",
+                "5"
+            ],
+            [
+                "CSCMA",
+                "Sir (Dr.) A DAS",
+                "46"
+            ],
+            [
+                "FSCMA",
+                "Sir W TIEWSOH",
+                "Dept."
+            ],
+            [
+                "GELMA",
+                "Madam N CHETTRI",
+                "19"
+            ],
+            [
+                "PHYMA",
+                "Sir (Dr.) D KHARKONGOR",
+                "8"
+            ],
+            [
+                "STAMA",
+                "Faculty Unspecified",
+                "61"
+            ],
+            [
+                "ZOOMA",
+                "Faculty Unspecified",
+                "LAB 1"
+            ]
+        ],
+        "8": [
+            [
+                "ECOMA(D)",
+                "Madam (Dr.) CM SWER",
+                "71"
+            ],
+            [
+                "EDUMA(D)",
+                "Madam GJ KHARBHIH",
+                "29"
+            ],
+            [
+                "ENGMA(D)",
+                "",
+                "38"
+            ],
+            [
+                "HISMA(D)",
+                "Sir BS LYNGDOH",
+                "36"
+            ],
+            [
+                "KHAMA(D)",
+                "Madam B LYNGDOH",
+                "23"
+            ],
+            [
+                "PHIMA(D)",
+                "Madam (Dr.) WM NONGBRI",
+                "21"
+            ],
+            [
+                "POLMA(D)",
+                "Madam EPF LYNRAH",
+                "56"
+            ],
+            [
+                "MUSMA",
+                "Sir A SYIEMLIEH",
+                "42"
+            ],
+            [
+                "METMA",
+                "Madam (Dr.) RK CHHETRI",
+                "50"
+            ],
+            [
+                "MVPMA",
+                "Madam (Dr.) E SAIBORNE Madam DJ KHONGWIR",
+                "49"
+            ],
+            [
+                "COMMA(D)",
+                "Madam AAL NONGPIUR",
+                "59"
+            ],
+            [
+                "V.ED-V-[MTHMA/PHYMA/STAMA]",
+                "",
+                "#"
+            ]
+        ],
+        "9": [
+            [
+                "ECOMA(D)",
+                "Madam (Dr.) CM SWER",
+                "71"
+            ],
+            [
+                "EDUMA(D)",
+                "Madam GJ KHARBHIH",
+                "29"
+            ],
+            [
+                "ENGMA(D)",
+                "",
+                "38"
+            ],
+            [
+                "HISMA(D)",
+                "Sir SF KYNTA",
+                "36"
+            ],
+            [
+                "KHAMA(D)",
+                "Sir (Dr.) R WANKHAR",
+                "23"
+            ],
+            [
+                "PHIMA(D)",
+                "Madam (Dr.) WM NONGBRI",
+                "21"
+            ],
+            [
+                "POLMA(D)",
+                "Sir N KHARLUKHI",
+                "56"
+            ],
+            [
+                "MUSMA",
+                "",
+                "42"
+            ],
+            [
+                "METMA",
+                "Madam (Dr.) RK CHHETRI",
+                "50"
+            ],
+            [
+                "MVPMA",
+                "Madam (Dr.) E SAIBORNE Madam DJ KHONGWIR",
+                "49"
+            ],
+            [
+                "BCHMA",
+                "Madam (Dr.) BJ MYLLIEMNGAP",
+                "10"
+            ],
+            [
+                "BITMA",
+                "Sir (Dr.) S KHARNAIOR",
+                "11"
+            ],
+            [
+                "BOTMA",
+                "Sir SM SYIEMLIEH",
+                "LAB 1"
+            ],
+            [
+                "CHEMA",
+                "Sir F DIENGDOH",
+                "6"
+            ],
+            [
+                "CSCMA",
+                "Sir KL SYIEMIONG",
+                "45"
+            ],
+            [
+                "FSCMA",
+                "Sir D SARMA",
+                "Dept."
+            ],
+            [
+                "GELMA",
+                "Madam N CHETTRI",
+                "19"
+            ],
+            [
+                "PHYMA",
+                "Sir (Dr.) S SAIKIA",
+                "7"
+            ],
+            [
+                "STAMA",
+                "Madam R HOOJON",
+                "60"
+            ],
+            [
+                "ZOOMA",
+                "Sir (Dr.) FA LAMARE",
+                "LAB 1"
+            ],
+            [
+                "COMMA(D)",
+                "Sir AS KHARBULI",
+                "59"
+            ]
+        ],
+        "10": [
+            [
+                "ECOMA(D)",
+                "Madam (Dr.) DS DKHAR",
+                "71"
+            ],
+            [
+                "EDUMA(D)",
+                "Madam G MARBANIANG",
+                "29"
+            ],
+            [
+                "ENGMA(D)",
+                "",
+                "38"
+            ],
+            [
+                "HISMA(D)",
+                "Madam (Dr.) SC LAMARE",
+                "36"
+            ],
+            [
+                "KHAMA(D)",
+                "Sir BP KHARUMNUID",
+                "23"
+            ],
+            [
+                "PHIMA(D)",
+                "Madam (Dr.) WM NONGBRI",
+                "21"
+            ],
+            [
+                "POLMA(D)",
+                "Sir N KHARLUKHI",
+                "56"
+            ],
+            [
+                "MUSMA",
+                "Sir B LYNGDOH",
+                "42"
+            ],
+            [
+                "METMA",
+                "Madam (Dr.) RK CHHETRI",
+                "50"
+            ],
+            [
+                "MVPMA",
+                "Madam (Dr.) E SAIBORNE Madam DJ KHONGWIR",
+                "49"
+            ],
+            [
+                "COMMA(D)",
+                "Madam I HYNNIEWTA",
+                "59"
+            ],
+            [
+                "V.ED-V-[CHEMA/CSCMA/GELMA]",
+                "",
+                "#"
+            ]
+        ],
+        "11": [
+            [
+                "ECOMA(D)",
+                "Madam (Dr.) DS DKHAR",
+                "71"
+            ],
+            [
+                "EDUMA(D)",
+                "Madam G MARBANIANG",
+                "29"
+            ],
+            [
+                "ENGMA(D)",
+                "",
+                "38"
+            ],
+            [
+                "HISMA(D)",
+                "Sir E LAMARE",
+                "36"
+            ],
+            [
+                "KHAMA(D)",
+                "Sir BP KHARUMNUID",
+                "23"
+            ],
+            [
+                "PHIMA(D)",
+                "Madam (Dr.) WM NONGBRI",
+                "21"
+            ],
+            [
+                "POLMA(D)",
+                "Sir RE KHARBANI",
+                "56"
+            ],
+            [
+                "COMMA(D)",
+                "Sir S DKHAR",
+                "59"
+            ],
+            [
+                "COMMA(A)",
+                "Madam I HYNNIEWTA",
+                "54"
+            ]
+        ],
+        "12": [
+            [
+                "COMMA(A)",
+                "Madam AS MALNGIANG",
+                "54"
+            ]
+        ],
+        "13": []
+    },
+    {
+        "1": [
+            [
+                "ECOMA(M)",
+                "Sir (Dr.) A NONGSPUNG",
+                "71"
+            ],
+            [
+                "EDUMA(M)",
+                "Madam GJ KHARBHIH",
+                "70"
+            ],
+            [
+                "ENGMA(M)",
+                "",
+                "32"
+            ],
+            [
+                "HISMA(M)",
+                "",
+                "33"
+            ],
+            [
+                "KHAMA(M)",
+                "Sir BP KHARUMNUID",
+                "42"
+            ],
+            [
+                "PHIMA(M)",
+                "",
+                "64"
+            ],
+            [
+                "POLMA(M)",
+                "Sir R DKHAR",
+                "56"
+            ],
+            [
+                "COMMA(M)",
+                "Madam AAL NONGPIUR",
+                "59"
+            ]
+        ],
+        "2": [
+            [
+                "ECOMA(M)",
+                "Sir (Dr.) A NONGSPUNG",
+                "71"
+            ],
+            [
+                "EDUMA(M)",
+                "Madam IL MAWLONG",
+                "70"
+            ],
+            [
+                "ENGMA(M)",
+                "",
+                "32"
+            ],
+            [
+                "HISMA(M)",
+                "",
+                "33"
+            ],
+            [
+                "KHAMA(M)",
+                "Madam B LYNGDOH",
+                "42"
+            ],
+            [
+                "PHIMA(M)",
+                "Madam LC KURBAH",
+                "64"
+            ],
+            [
+                "POLMA(M)",
+                "Madam EPF LYNRAH",
+                "56"
+            ],
+            [
+                "COMMA(M)",
+                "Sir AS KHARBULI",
+                "59"
+            ]
+        ],
+        "3": [
+            [
+                "ECOMI(M)",
+                "Madam (Dr.) B MAWKHIEW",
+                "71"
+            ],
+            [
+                "EDUMI(M)",
+                "Madam D NONGBRI",
+                "33"
+            ],
+            [
+                "ENGMI(M)",
+                "",
+                "38"
+            ],
+            [
+                "HISMI(M)",
+                "Madam (Dr.) M KHARWANLANG",
+                "36"
+            ],
+            [
+                "KHAMI(M)",
+                "Madam B LYNGDOH",
+                "23"
+            ],
+            [
+                "PHIMI(M)",
+                "Madam LC KURBAH",
+                "26"
+            ],
+            [
+                "POLMI(M)",
+                "Madam EPF LYNRAH",
+                "56"
+            ],
+            [
+                "COMMI(M)",
+                "",
+                "55"
+            ],
+            [
+                "BCHMI",
+                "Sir VM WANN",
+                "70"
+            ],
+            [
+                "BITMI",
+                "Sir PIL NONGBRI",
+                "60"
+            ],
+            [
+                "BOTMI",
+                "Madam (Dr.) AK LAKRA",
+                "LAB 1"
+            ],
+            [
+                "CHEMI",
+                "Sir M CHAKRABARTY Sir (Dr.) B KSHIAR Madam (Dr.) A SNAITANG",
+                "5"
+            ],
+            [
+                "CSCMI",
+                "Madam (Dr.) MJ THAM",
+                "46"
+            ],
+            [
+                "FSCMI",
+                "Sir W TIEWSOH",
+                "Dept."
+            ],
+            [
+                "GELMI",
+                "Madam T MUKHIM",
+                "19"
+            ],
+            [
+                "MTHMI",
+                "Madam W NONGBSAP",
+                "17"
+            ],
+            [
+                "PHYMI",
+                "Sir (Dr.) S SAIKIA",
+                "8"
+            ],
+            [
+                "STAMI",
+                "Faculty Unspecified",
+                "60"
+            ],
+            [
+                "ZOOMI",
+                "Faculty Unspecified",
+                "LAB 1"
+            ],
+            [
+                "BBAMI",
+                "Sir RG PARIAT",
+                "68"
+            ],
+            [
+                "MUSMI",
+                "",
+                "43"
+            ],
+            [
+                "METMI",
+                "Madam R ISHORARI",
+                "61"
+            ],
+            [
+                "MVPMI",
+                "Sir NDN MAJAW",
+                "62"
+            ]
+        ],
+        "4": [
+            [
+                "ECOMA(M)",
+                "Madam (Dr.) B MAWKHIEW",
+                "71"
+            ],
+            [
+                "EDUMA(M)",
+                "Madam IL MAWLONG",
+                "29"
+            ],
+            [
+                "ENGMA(M)",
+                "",
+                "38"
+            ],
+            [
+                "HISMA(M)",
+                "Sir (Dr.) HA HIWALE",
+                "36"
+            ],
+            [
+                "KHAMA(M)",
+                "Sir (Dr.) R WANKHAR",
+                "40"
+            ],
+            [
+                "PHIMA(M)",
+                "Sir S MUKTIEH",
+                "26"
+            ],
+            [
+                "POLMA(M)",
+                "Sir N KHARLUKHI",
+                "56"
+            ],
+            [
+                "COMMA(M)",
+                "Sir SK PRADHAN",
+                "59"
+            ],
+            [
+                "BCHMA",
+                "Sir (Dr.) HG LYNGDOH",
+                "10"
+            ],
+            [
+                "BITMA",
+                "Sir (Dr.) S THABAH",
+                "11"
+            ],
+            [
+                "BOTMA",
+                "Sir SM SYIEMLIEH",
+                "LAB 1"
+            ],
+            [
+                "CHEMA",
+                "Madam (Dr.) A SNAITANG",
+                "5"
+            ],
+            [
+                "CSCMA",
+                "Sir KL SYIEMIONG",
+                "46"
+            ],
+            [
+                "FSCMA",
+                "Faculty Unspecified",
+                "Dept."
+            ],
+            [
+                "GELMA",
+                "Madam N CHETTRI",
+                "17"
+            ],
+            [
+                "MTHMA",
+                "Madam (Dr.) P BHATTACHARJEE",
+                "16"
+            ],
+            [
+                "PHYMA",
+                "Madam M KHARKONGOR",
+                "8"
+            ],
+            [
+                "STAMA",
+                "Madam R HOOJON",
+                "61"
+            ],
+            [
+                "ZOOMA",
+                "Madam (Dr.) KRR MIHSILL Sir AD MARBANIANG Faculty Unspecified",
+                "LAB 1"
+            ],
+            [
+                "BBAMA",
+                "Sir AL WARJRI",
+                "68"
+            ]
+        ],
+        "5": [
+            [
+                "ECOMA(M)",
+                "Madam (Dr.) CM SWER",
+                "71"
+            ],
+            [
+                "EDUMA(M)",
+                "Madam IL MAWLONG",
+                "29"
+            ],
+            [
+                "ENGMA(M)",
+                "",
+                "38"
+            ],
+            [
+                "HISMA(M)",
+                "Madam (Dr.) M KHARWANLANG",
+                "36"
+            ],
+            [
+                "KHAMA(M)",
+                "Sir (Dr.) T LYNSHING",
+                "40"
+            ],
+            [
+                "PHIMA(M)",
+                "Madam (Dr.) MB SYIEM",
+                "26"
+            ],
+            [
+                "POLMA(M)",
+                "Madam EPF LYNRAH",
+                "55"
+            ],
+            [
+                "COMMA(M)",
+                "Madam I HYNNIEWTA",
+                "59"
+            ],
+            [
+                "BCHMA",
+                "Sir VM WANN",
+                "10"
+            ],
+            [
+                "BITMA",
+                "Madam (Dr.) JM LAMO",
+                "11"
+            ],
+            [
+                "BOTMA",
+                "Sir SM SYIEMLIEH",
+                "62"
+            ],
+            [
+                "CHEMA",
+                "Sir (Dr.) B KSHIAR",
+                "5"
+            ],
+            [
+                "CSCMA",
+                "Sir (Dr.) A DAS",
+                "46"
+            ],
+            [
+                "FSCMA",
+                "Madam (Dr.) SMB KHARBULI",
+                "Dept."
+            ],
+            [
+                "GELMA",
+                "Madam N CHETTRI",
+                "19"
+            ],
+            [
+                "MTHMA",
+                "Madam W NONGBSAP",
+                "17"
+            ],
+            [
+                "PHYMA",
+                "Sir (Dr.) D KHARKONGOR",
+                "7"
+            ],
+            [
+                "STAMA",
+                "Madam B SYIEM",
+                "61"
+            ],
+            [
+                "ZOOMA",
+                "Sir AD MARBANIANG",
+                "LAB 1"
+            ],
+            [
+                "BBAMA",
+                "Sir (Dr.) DF MARBANIANG",
+                "68"
+            ],
+            [
+                "MUSMA",
+                "",
+                "43"
+            ],
+            [
+                "METMA",
+                "Madam R ISHORARI",
+                "50"
+            ],
+            [
+                "MVPMA",
+                "Sir NDN MAJAW",
+                "49"
+            ]
+        ],
+        "6": [
+            [
+                "BCHMI",
+                "Sir (Dr.) HG LYNGDOH",
+                "10"
+            ],
+            [
+                "BITMI",
+                "Madam IM BASAIAWMOIT",
+                "11"
+            ],
+            [
+                "BOTMI",
+                "Madam (Dr.) AK LAKRA",
+                "69"
+            ],
+            [
+                "CHEMI",
+                "Madam (Dr.) A SNAITANG Sir M CHAKRABARTY Sir (Dr.) B KSHIAR",
+                "6"
+            ],
+            [
+                "CSCMI",
+                "Madam (Dr.) MJ THAM",
+                "38"
+            ],
+            [
+                "FSCMI",
+                "Sir (Dr.) R NATH",
+                "23"
+            ],
+            [
+                "GELMI",
+                "Madam T MUKHIM",
+                "29"
+            ],
+            [
+                "MTHMI",
+                "Madam (Dr.) P BHATTACHARJEE",
+                "30"
+            ],
+            [
+                "PHYMI",
+                "Sir (Dr.) D KHARKONGOR",
+                "19"
+            ],
+            [
+                "STAMI",
+                "Sir (Dr.) SP MARBANIANG",
+                "70"
+            ],
+            [
+                "ZOOMI",
+                "Sir (Dr.) FA LAMARE Sir JN SYIEM Faculty Unspecified",
+                "61"
+            ],
+            [
+                "BBAMI",
+                "Sir RG PARIAT",
+                "2"
+            ],
+            [
+                "MUSMI",
+                "",
+                "36"
+            ],
+            [
+                "METMI",
+                "Sir T LIM",
+                "62"
+            ],
+            [
+                "MVPMI",
+                "Madam (Dr.) CKD KHARSHIING",
+                "68"
+            ]
+        ],
+        "7": [
+            [
+                "ECOMA(D)",
+                "Madam (Dr.) CM SWER",
+                "71"
+            ],
+            [
+                "EDUMA(D)",
+                "Madam D NONGBRI",
+                "29"
+            ],
+            [
+                "ENGMA(D)",
+                "",
+                "38"
+            ],
+            [
+                "HISMA(D)",
+                "Sir E LAMARE",
+                "36"
+            ],
+            [
+                "KHAMA(D)",
+                "Madam S WARBAH",
+                "23"
+            ],
+            [
+                "PHIMA(D)",
+                "Madam (Dr.) MB SYIEM",
+                "21"
+            ],
+            [
+                "POLMA(D)",
+                "Sir S HYN\u00c3\u2018IEWTA",
+                "56"
+            ],
+            [
+                "BCHMA",
+                "Madam (Dr.) BJ MYLLIEMNGAP",
+                "10"
+            ],
+            [
+                "BITMA",
+                "Madam L JOHN",
+                "11"
+            ],
+            [
+                "BOTMA",
+                "Sir AK DAS",
+                "LAB 1"
+            ],
+            [
+                "CHEMA",
+                "Sir F DIENGDOH",
+                "4"
+            ],
+            [
+                "CSCMA",
+                "Sir (Dr.) A DAS",
+                "46"
+            ],
+            [
+                "FSCMA",
+                "Sir (Dr.) R NATH",
+                "Dept."
+            ],
+            [
+                "GELMA",
+                "Madam N CHETTRI",
+                "19"
+            ],
+            [
+                "MTHMA",
+                "Sir E SYIEMLIEH",
+                "17"
+            ],
+            [
+                "PHYMA",
+                "Sir F IAWPHNIAW",
+                "8"
+            ],
+            [
+                "STAMA",
+                "Sir (Dr.) SP MARBANIANG",
+                "61"
+            ],
+            [
+                "ZOOMA",
+                "Madam (Dr.) KRR MIHSILL",
+                "LAB 1"
+            ],
+            [
+                "BBAMA",
+                "Sir AL WARJRI",
+                "69"
+            ],
+            [
+                "MUSMA",
+                "",
+                "43"
+            ],
+            [
+                "METMA",
+                "Madam R ISHORARI",
+                "50"
+            ],
+            [
+                "MVPMA",
+                "Madam R ISHORARI",
+                "49"
+            ]
+        ],
+        "8": [
+            [
+                "ECOMA(D)",
+                "Madam (Dr.) B MAWKHIEW",
+                "71"
+            ],
+            [
+                "EDUMA(D)",
+                "Madam G MARBANIANG",
+                "29"
+            ],
+            [
+                "ENGMA(D)",
+                "",
+                "35"
+            ],
+            [
+                "HISMA(D)",
+                "Sir SF KYNTA",
+                "36"
+            ],
+            [
+                "KHAMA(D)",
+                "Sir BM KHARBANI",
+                "23"
+            ],
+            [
+                "PHIMA(D)",
+                "Madam (Dr.) MB SYIEM",
+                "21"
+            ],
+            [
+                "POLMA(D)",
+                "Sir S HYN\u00c3\u2018IEWTA",
+                "56"
+            ],
+            [
+                "COMMA(D)",
+                "Madam AAL NONGPIUR",
+                "54"
+            ]
+        ],
+        "9": [
+            [
+                "ENGMA(D)",
+                "",
+                "35"
+            ],
+            [
+                "COMMA(D)",
+                "Sir AS KHARBULI",
+                "54"
+            ]
+        ],
+        "10": [
+            [
+                "COMMA(D)",
+                "Madam I HYNNIEWTA",
+                "54"
+            ]
+        ],
+        "11": [
+            [
+                "COMMA(A)",
+                "Madam I HYNNIEWTA",
+                "71"
+            ]
+        ],
+        "12": [
+            [
+                "COMMA(A)",
+                "Madam I DKHAR",
+                "71"
+            ]
+        ],
+        "13": []
+    }
+]
