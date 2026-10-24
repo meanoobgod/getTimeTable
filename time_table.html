@@ -41,10 +41,8 @@
     position:fixed; inset:0; z-index:9000;
     display:flex; align-items:center; justify-content:center;
     padding:32px; text-align:center; color:#fff;
-    background:radial-gradient(circle at 50% 30%, #dc2626 0%, #991b1b 45%, #450a0a 100%);
-    animation:errIn .25s ease-out;
+    background:rgba(0, 79, 152, 0.9);
   }
-  @keyframes errIn{ from{ opacity:0; transform:scale(1.04); } to{ opacity:1; transform:scale(1); } }
   .error-box{ max-width:720px; }
   .error-icon{
     width:96px; height:96px; margin:0 auto 22px; border-radius:50%;
@@ -222,8 +220,7 @@
 <!-- ERROR -->
 <div id="errorScreen" class="error-screen" hidden>
   <div class="error-box">
-    <div class="error-icon">✕</div>
-    <h1>Access Denied</h1>
+    <h1>Record Not Found!</h1>
     <p id="errorMsg">Something went wrong.</p>
     <a class="back-btn" href="index.html">← Back to Home</a>
   </div>
