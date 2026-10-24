@@ -188,10 +188,10 @@
   .primary-btn,.ghost-btn{
     font-family:inherit; font-size:15px; font-weight:700; letter-spacing:.4px;
     padding:14px 24px; border-radius:6px; cursor:pointer; text-decoration:none;
-    border:none; transition:background .18s, transform .1s, box-shadow .18s;
+    border:none;
   }
-  .primary-btn{ background:#3a3a3a; color:#fff; box-shadow:0 10px 26px rgba(0,0,0,.35); }
-  .primary-btn:hover{ background:#232323; }
+  .primary-btn{ background:#ffffff; color:#010101; }
+  .primary-btn:hover{ background:#f3f4f6;}
   .primary-btn:disabled{ opacity:.6; cursor:progress; }
   .primary-btn:active{ transform:scale(.985); }
   .ghost-btn{
@@ -270,6 +270,7 @@
 
   <div class="actions">
     <a class="ghost-btn" href="index.html">← Change Roll No / Semester</a>
+    <button class="primary-btn" id="pdfBtn">Print</button>
   </div>
 
   <section id="debugBox" hidden></section>
@@ -698,7 +699,7 @@ async function downloadPDF(){
       const pageW = doc.internal.pageSize.width;
       doc.setFontSize(8);
       doc.setTextColor(120, 120, 120);
-      doc.text(`Generated on ${new Date().toLocaleString()}`, 6, pageH - 5);
+      //doc.text(`Generated on ${new Date().toLocaleString()}`, 6, pageH - 5);
       doc.text("Time Table Generator", pageW - 6, pageH - 5, { align: "right" });
     }
 
