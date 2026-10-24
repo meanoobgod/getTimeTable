@@ -111,7 +111,7 @@
 
   /* header row */
   table.tt tr.head td{
-    background:#111827;
+    background:#e5e7eb;
     color:#fff;
     text-align:center;
     vertical-align:middle;
@@ -132,7 +132,7 @@
     margin-bottom:2px;
   }
   .pno{
-    color: white;
+    color: rgb(0, 0, 0);
   }
   table.tt tr.head td .t{
     display:block;
@@ -165,11 +165,6 @@
 
   .empty-note{ margin:12px 2px 0; color:#b91c1c; font-size:13px; font-weight:600; }
 
-  .sheet-foot{
-    margin-top:12px; padding-top:8px; border-top:1px solid #d1d5db;
-    font-size:11px; color:var(--muted);
-    display:flex; justify-content:space-between; gap:10px;
-  }
 
   /* DEBUG */
   #debugBox{
@@ -245,7 +240,7 @@
   <section class="sheet" id="sheet">
     <header class="sheet-head">
       <div>
-        <h1>Weekly Time Table</h1>
+        <h1>Time Table</h1>
         <p class="meta">Semester <b id="semOut">—</b> · Roll No <b id="rollOut">—</b></p>
       </div>
       <div class="stamp">Class Routine</div>
@@ -262,10 +257,7 @@
       No scheduled classes matched your registered subjects.
     </p>
 
-    <footer class="sheet-foot">
-      <span>Generated on <span id="genDate"></span></span>
-      <span>Time Table Generator</span>
-    </footer>
+    
   </section>
 
   <div class="actions">
@@ -486,7 +478,7 @@ let LAST = { periods: [], schedule: [], sem: "", roll: "" };
 
   renderTable(allPeriods, schedule);
 
-  $("genDate").textContent = new Date().toLocaleString();
+  
   if (!schedule.some(m => m.size > 0)) $("emptyNote").hidden = false;
 
   if (debug) renderDebug({ header, row, coreSubjects, days });
@@ -614,7 +606,7 @@ async function downloadPDF(){
     doc.setFont("helvetica", "bold");
     doc.setFontSize(14);
     doc.setTextColor(17, 24, 39);
-    doc.text("Weekly Time Table", 6, 10);
+    doc.text("Time Table", 6, 10);
 
     doc.setFont("helvetica", "normal");
     doc.setFontSize(9);
@@ -626,7 +618,7 @@ async function downloadPDF(){
       "DAY / TIME",
       ...periods.map(p => {
         const r = (TIME[p] || "").split(" - ");
-        return `P${p}\n${r[0] || ""}${r[1] ? "\n" + r[1] : ""}`;
+        return `${r[0] || ""}${r[1] ? "\n" + r[1] : ""}`;
       })
     ]];
 
@@ -669,8 +661,8 @@ async function downloadPDF(){
         textColor: [17, 24, 39]
       },
       headStyles: {
-        fillColor: [17, 24, 39],
-        textColor: [255, 255, 255],
+        fillColor: [243, 244, 246],
+        textColor: [17, 24, 39],
         halign: "center",
         valign: "middle",
         fontStyle: "bold",
@@ -692,16 +684,6 @@ async function downloadPDF(){
     });
 
     /* ---- footer ---- */
-    const pageCount = doc.internal.getNumberOfPages();
-    for (let i = 1; i <= pageCount; i++){
-      doc.setPage(i);
-      const pageH = doc.internal.pageSize.height;
-      const pageW = doc.internal.pageSize.width;
-      doc.setFontSize(8);
-      doc.setTextColor(120, 120, 120);
-      //doc.text(`Generated on ${new Date().toLocaleString()}`, 6, pageH - 5);
-      doc.text("Time Table Generator", pageW - 6, pageH - 5, { align: "right" });
-    }
 
     doc.save(pdfFileName());
 
