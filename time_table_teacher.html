@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Teacher Time Table</title>
+<style>
+  :root { --ink:#111827; --muted:#6b7280; }
+  *,*::before,*::after{ box-sizing:border-box; }
+  [hidden]{ display:none !important; }
+  html,body{ min-height:100%; }
+
+  body{
+    margin:0; padding:28px 16px 48px;
+    font-family:"Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;
+    color:var(--ink);
+    background:rgba(0, 79, 152, 0.9);
+    display:flex; justify-content:center; align-items:flex-start;
+  }
+
+  .loader{
+    position:fixed; inset:0; display:flex; flex-direction:column;
+    align-items:center; justify-content:center; gap:16px;
+    background:rgba(8,10,20,.55); backdrop-filter:blur(6px);
+    color:#fff; font-weight:600; letter-spacing:.4px; z-index:800;
+  }
+  .spinner{
+    width:46px; height:46px; border-radius:50%;
+    border:4px solid rgba(255,255,255,.25); border-top-color:#fff;
+    animation:spin .85s linear infinite;
+  }
+  @keyframes spin{ to{ transform:rotate(360deg); } }
+
+  .error-screen{
+    position:fixed; inset:0; z-index:9000;
+    display:flex; align-items:center; justify-content:center;
+    padding:32px; text-align:center; color:#fff;
+    background:rgba(0, 79, 152, 0.9);
+  }
+  .error-box{ max-width:720px; }
+  .error-screen h1{
+    margin:0 0 14px; font-size:clamp(28px,6vw,56px);
+    letter-spacing:2px; text-transform:uppercase;
+    text-shadow:0 6px 26px rgba(0,0,0,.45);
+  }
+  .error-screen p{ margin:0 0 26px; font-size:clamp(15px,2.4vw,20px); line-height:1.5; }
+  .error-screen small{ opacity:.7; font-size:13px; display:block; margin-top:8px; }
+  .back-btn{
+    display:inline-block; padding:14px 30px; border-radius:12px;
+    background:#fff; color:#7f1d1d; font-weight:800; letter-spacing:.5px;
+    text-decoration:none; box-shadow:0 10px 28px rgba(0,0,0,.35);
+  }
+  .back-btn:hover{ transform:translateY(-2px); }
+
+  .wrap{ width:100%; max-width:1320px; display:flex; flex-direction:column; gap:18px; }
+  .sheet{
+    background:#fff; border-radius:8px; padding:18px 18px 12px;
+    box-shadow:0 18px 50px rgba(0,0,0,.30);
+  }
+  .sheet-head{
+    display:flex; flex-wrap:wrap; gap:12px; align-items:flex-end;
+    justify-content:space-between; margin-bottom:12px;
+    padding-bottom:10px; border-bottom:2px solid #111827;
+  }
+  .sheet-head h1{ margin:0; font-size:22px; letter-spacing:-.4px; }
+  .meta{ margin:6px 0 0; font-size:13px; color:var(--muted); }
+  .meta b{ color:var(--ink); letter-spacing:.3px; }
+  .stamp{
+    font-size:10.5px; font-weight:800; letter-spacing:1.6px; text-transform:uppercase;
+    color:#fff; background:#111827; padding:7px 12px; white-space:nowrap;
+  }
+
+  .table-scroll{ overflow-x:auto; padding-bottom:6px; }
+
+  table.tt{
+    width:100%; min-width:900px;
+    border-collapse:collapse; border:1px solid #000;
+    table-layout:fixed; background:#fff;
+  }
+  table.tt td{
+    border:1px solid #000; padding:3px 4px;
+    font-size:10.5px; vertical-align:top;
+    word-wrap:break-word; overflow-wrap:break-word;
+  }
+  table.tt tr.head td{
+    background:#000; color:#fff; text-align:center;
+    vertical-align:middle; font-weight:700; padding:5px 2px;
+    font-size:9.5px; line-height:1.2;
+  }
+  table.tt tr.head td.corner{ font-size:8.5px; letter-spacing:.8px; }
+  table.tt tr.head td .pno{
+    display:block; font-size:11px; font-weight:800; margin-bottom:2px; color:#fff;
+  }
+  table.tt td.day{
+    background:#f3f4f6; font-weight:700; font-size:11px;
+    text-align:center; vertical-align:middle;
+    letter-spacing:.5px; width:56px;
+  }
+
+  .slot{ padding:2px 4px; margin-bottom:2px; }
+  .slot:last-child{ margin-bottom:0; }
+  .slot + .slot{ border-top:1px dashed #d1d5db; padding-top:3px; }
+  .slot .subj{ font-weight:700; font-size:10px; color:#1f2937; line-height:1.25; }
+  .slot .hall{ font-size:9px; color:#374151; margin-top:1px; }
+  /* NEW: semester tag */
+  .slot .sem{
+    font-size:8.5px; color:#6d28d9; font-weight:800;
+    letter-spacing:.4px; margin-top:1px;
+  }
+
+  .empty-note{ margin:12px 2px 0; color:#b91c1c; font-size:13px; font-weight:600; }
+
+  .actions{ display:flex; gap:12px; justify-content:space-between; align-items:center; flex-wrap:wrap; }
+  .primary-btn,.ghost-btn{
+    font-family:inherit; font-size:15px; font-weight:700; letter-spacing:.4px;
+    padding:14px 24px; border-radius:6px; cursor:pointer; text-decoration:none;
+    border:none;
+  }
+  .primary-btn{ background:#ffffff; color:#010101; }
+  .primary-btn:hover{ background:#f3f4f6;}
+  .primary-btn:disabled{ opacity:.6; cursor:progress; }
+  .ghost-btn{
+    background:#fff; color:#14161d;
+    border:1.5px solid rgba(255,255,255,.9);
+    box-shadow:0 10px 26px rgba(0,0,0,.25);
+  }
+  .ghost-btn:hover{ background:#f3f4f6; }
+
+  @media (max-width:700px){
+    .sheet{ padding:14px 10px 10px; }
+    .sheet-head h1{ font-size:18px; }
+    .actions{ flex-direction:column-reverse; align-items:stretch; }
+    .primary-btn,.ghost-btn{ width:100%; text-align:center; }
+  }
+
+  @media print{
+    @page{ size:A4 landscape; margin:6mm; }
+    body{ background:#fff !important; padding:0; display:block; }
+    .actions,.loader,.error-screen{ display:none !important; }
+    .sheet{ box-shadow:none; border:none; border-radius:0; padding:0; }
+    .table-scroll{ overflow:visible !important; }
+    table.tt{ min-width:0 !important; }
+    *{ -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+    tbody tr{ page-break-inside:avoid; }
+  }
+</style>
+</head>
+<body>
+
+<div id="errorScreen" class="error-screen" hidden>
+  <div class="error-box">
+    <h1>Record Not Found!</h1>
+    <p id="errorMsg">Something went wrong.</p>
+    <a class="back-btn" href="index.html">← Back to Home</a>
+  </div>
+</div>
+
+<div id="loader" class="loader">
+  <div class="spinner"></div>
+  <p>Searching all semesters…</p>
+</div>
+
+<main id="app" class="wrap" hidden>
+  <section class="sheet">
+    <header class="sheet-head">
+      <div>
+        <h1>Teacher Time Table</h1>
+        <p class="meta">
+          Teacher <b id="teacherOut">—</b> ·
+          <span id="summaryOut">—</span>
+        </p>
+      </div>
+      <div class="stamp">Teacher Routine</div>
+    </header>
+
+    <div class="table-scroll">
+      <table id="tt" class="tt"><thead></thead><tbody></tbody></table>
+    </div>
+
+    <p id="emptyNote" class="empty-note" hidden>
+      No classes were found for this teacher in any semester.
+    </p>
+  </section>
+
+  <div class="actions">
+    <a class="ghost-btn" href="index.html">← Change Teacher</a>
+    <button class="primary-btn" id="pdfBtn">Print / Save PDF</button>
+  </div>
+</main>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
+
+<script>
+/* ============================ CONSTANTS ============================ */
+const WEEK = ["MON","TUE","WED","THRUS","FRI"];
+
+const TIME = {
+  "1":"7:00 AM - 7:45 AM", "2":"7:45 AM - 8:30 AM",
+  "3":"8:30 AM - 9:20 AM", "4":"9:20 AM - 10:10 AM",
+  "5":"10:10 AM - 11:00 AM","6":"11:00 AM - 11:50 AM",
+  "7":"11:50 AM - 12:35 PM","8":"1:00 PM - 1:45 PM",
+  "9":"1:45 PM - 2:30 PM", "10":"2:30 PM - 3:15 PM",
+  "11":"3:15 PM - 4:00 PM","12":"4:00 PM - 4:45 PM",
+  "13":"4:45 PM - 5:30 PM"
+};
+
+const SEM_KEYS = ["I","III","V","VII"];
+const SEM_FILES = {
+  "I":   "Clean_semI_routen.json",
+  "III": "Clean_semIII_routen.json",
+  "V":   "Clean_semV_routen.json",
+  "VII": "Clean_semVII_routen.json"
+};
+const SEM_LABEL = {
+  "I":"Semester I","III":"Semester III","V":"Semester V","VII":"Semester VII"
+};
+
+/* ============================ HELPERS ============================ */
+const $ = (id) => document.getElementById(id);
+
+function escapeHtml(v){
+  return String(v ?? "")
+    .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
+    .replace(/"/g,"&quot;").replace(/'/g,"&#39;");
+}
+
+async function fetchJSON(url){
+  const res = await fetch(url, { cache: "no-store" });
+  if (!res.ok) throw new Error(`${url} → HTTP ${res.status}`);
+  const txt = (await res.text()).replace(/^\uFEFF/, "");
+  return JSON.parse(txt);
+}
+
+function teacherKey(name){
+  return String(name || "")
+    .toUpperCase()
+    .replace(/^(?:(?:SIR|MADAM|FR\.?|DR\.?)\s+)+/i, "")
+    .replace(/\(DR\.?\)\s*/gi, "")
+    .replace(/[^A-Z0-9]/g, "");
+}
+
+function extractTeacherKeys(field){
+  if (!field) return [];
+  const cleaned = String(field)
+    .replace(/faculty\s+unspecified/gi, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (!cleaned) return [];
+  const parts = cleaned.split(/(?=(?:Sir|Madam|Fr\.)\s)/i);
+  const keys = [];
+  for (const p of parts){
+    const k = teacherKey(p);
+    if (k) keys.push(k);
+  }
+  return keys;
+}
+
+function normalizeSubject(s){
+  return String(s ?? "").toUpperCase().replace(/\s+/g," ").trim();
+}
+
+function teacherMatches(searchKeys, dataField){
+  const dataKeys = extractTeacherKeys(dataField);
+  if (!dataKeys.length || !searchKeys.length) return false;
+  for (const sk of searchKeys){
+    for (const dk of dataKeys){
+      if (sk === dk) return true;
+      if (sk.length >= 4 && dk.includes(sk)) return true;
+    }
+  }
+  return false;
+}
+
+/* ============================ UI STATE ============================ */
+function fail(msg, detail){
+  $("loader").hidden = true;
+  $("app").hidden = true;
+  $("errorMsg").innerHTML = msg + (detail ? `<small>${escapeHtml(detail)}</small>` : "");
+  $("errorScreen").hidden = false;
+  document.title = "Error — Teacher Time Table";
+}
+function showApp(){
+  $("loader").hidden = true;
+  $("errorScreen").hidden = true;
+  $("app").hidden = false;
+}
+
+/* ============================ STATE for PDF ============================ */
+let LAST = { periods: [], schedule: [], teacher: "", totalClasses: 0, sems: [] };
+
+/* ============================ MAIN ============================ */
+(async function main(){
+  const params  = new URLSearchParams(location.search);
+  const teacher = (params.get("teacher") || "").trim();
+
+  if (!teacher){
+    return fail(
+      "No teacher name was supplied.",
+      "Open the home page and submit the form instead of loading this page directly."
+    );
+  }
+
+  const searchKeys = extractTeacherKeys(teacher);
+  if (!searchKeys.length){
+    return fail(
+      "The teacher name is not valid.",
+      "Please enter a proper teacher name."
+    );
+  }
+
+  console.log("[Teacher TT] Searching for:", teacher, "→ keys:", searchKeys);
+  $("teacherOut").textContent = teacher;
+
+  /* ---- Load ALL semester files in parallel ---- */
+  const semData = {};
+  const loadErrors = [];
+  await Promise.all(SEM_KEYS.map(async (sem) => {
+    try {
+      const raw = await fetchJSON(SEM_FILES[sem]);
+      const days = Array.isArray(raw) ? raw : Object.values(raw);
+      semData[sem] = days;
+    } catch (err){
+      loadErrors.push(`${sem}: ${err.message}`);
+    }
+  }));
+
+  console.log("[Teacher TT] Loaded semesters:", Object.keys(semData),
+              "Errors:", loadErrors);
+
+  if (!Object.keys(semData).length){
+    return fail(
+      "Could not load any semester routine files.",
+      loadErrors.join(" · ")
+    );
+  }
+
+  /* ---- Build schedule: day index → period → entries[] ---- */
+  const schedule = WEEK.map(() => new Map());
+  const semsUsed = new Set();
+  let totalClasses = 0;
+
+  for (const sem of SEM_KEYS){
+    const days = semData[sem];
+    if (!days) continue;
+
+    for (let d = 0; d < WEEK.length; d++){
+      const today = days[d] || {};
+      for (const periodKey of Object.keys(today)){
+        if (!/^\d+$/.test(periodKey)) continue;
+        if (!TIME[periodKey]) continue;
+
+        for (const sub of (today[periodKey] || [])){
+          if (!Array.isArray(sub) || !sub.length) continue;
+
+          const subject      = String(sub[0] || "").trim();
+          const teacherField = String(sub[1] || "").trim();
+          const hall         = String(sub[2] || "").trim();
+
+          if (!subject) continue;
+          if (!teacherMatches(searchKeys, teacherField)) continue;
+
+          if (!schedule[d].has(periodKey)) schedule[d].set(periodKey, []);
+          const list = schedule[d].get(periodKey);
+
+          /* Dedupe now includes semester — so a class in Sem III and the
+             same subject in Sem V show as two separate entries. */
+          const dedupeKey =
+            normalizeSubject(subject) + "|" +
+            hall.toUpperCase() + "|" +
+            sem;
+          if (list.some(e => e.dedupeKey === dedupeKey)) continue;
+
+          list.push({ subject, hall, sem, dedupeKey });
+          semsUsed.add(sem);
+          totalClasses++;
+        }
+      }
+    }
+  }
+
+  console.log("[Teacher TT] Total classes found:", totalClasses,
+              "in:", [...semsUsed]);
+
+  const allPeriods = Object.keys(TIME).sort((a,b) => +a - +b);
+  LAST = { periods: allPeriods, schedule, teacher, totalClasses,
+           sems: [...semsUsed] };
+
+  const semSummary = semsUsed.size
+    ? [...semsUsed]
+        .sort((a,b) => SEM_KEYS.indexOf(a) - SEM_KEYS.indexOf(b))
+        .map(s => `Sem ${s}`).join(" · ")
+    : "—";
+  $("summaryOut").textContent =
+    `${totalClasses} class${totalClasses === 1 ? "" : "es"} · ${semSummary}`;
+
+  renderTable(allPeriods, schedule);
+
+  if (totalClasses === 0) $("emptyNote").hidden = false;
+
+  showApp();
+})();
+
+/* ============================ RENDER ============================ */
+function renderTable(periods, schedule){
+  const thead = document.querySelector("#tt thead");
+  const tbody = document.querySelector("#tt tbody");
+  thead.innerHTML = "";
+  tbody.innerHTML = "";
+
+  const headRow = document.createElement("tr");
+  headRow.className = "head";
+
+  const corner = document.createElement("td");
+  corner.className = "corner";
+  corner.textContent = "DAY / TIME";
+  headRow.appendChild(corner);
+
+  for (const p of periods){
+    const td = document.createElement("td");
+    const range = (TIME[p] || "").split(" - ");
+    td.innerHTML =
+      `<span class="pno">${escapeHtml(range[0] || "")}<br>${escapeHtml(range[1] || "")}</span>`;
+    headRow.appendChild(td);
+  }
+  thead.appendChild(headRow);
+
+  WEEK.forEach((dayName, d) => {
+    const tr = document.createElement("tr");
+
+    const dayCell = document.createElement("td");
+    dayCell.className = "day";
+    dayCell.textContent = dayName;
+    tr.appendChild(dayCell);
+
+    for (const p of periods){
+      const td = document.createElement("td");
+      const entries = schedule[d].get(p) || [];
+
+      for (const e of entries){
+        const slot = document.createElement("div");
+        slot.className = "slot";
+        slot.innerHTML =
+          `<div class="subj">${escapeHtml(e.subject)}</div>` +
+          (e.hall ? `<div class="hall">Hall: ${escapeHtml(e.hall)}</div>` : "") +
+          `<div class="sem">${escapeHtml(SEM_LABEL[e.sem] || e.sem)}</div>`;
+        td.appendChild(slot);
+      }
+      tr.appendChild(td);
+    }
+    tbody.appendChild(tr);
+  });
+}
+
+/* ============================ PDF ============================ */
+function pdfFileName(){
+  const name = (LAST.teacher || "NA").replace(/[^\w]+/g, "_");
+  return `Teacher_TimeTable_${name}.pdf`;
+}
+
+async function downloadPDF(){
+  const btn = $("pdfBtn");
+  const label = btn.textContent;
+  btn.disabled = true;
+  btn.textContent = "Building PDF…";
+
+  try {
+    if (!window.jspdf || !window.jspdf.jsPDF ||
+        typeof window.jspdf.jsPDF.API.autoTable !== "function"){
+      window.print();
+      return;
+    }
+
+    const { jsPDF } = window.jspdf;
+    const doc = new jsPDF({ orientation: "landscape", unit: "mm", format: "a4" });
+    const { periods, schedule, teacher } = LAST;
+
+    doc.setFont("helvetica", "bold");
+    doc.setFontSize(14);
+    doc.setTextColor(17, 24, 39);
+    doc.text("Teacher Time Table", 6, 10);
+
+    doc.setFont("helvetica", "normal");
+    doc.setFontSize(9);
+    doc.setTextColor(75, 85, 99);
+    doc.text(`Teacher: ${teacher}`, 6, 16);
+
+    const head = [[
+      "DAY / TIME",
+      ...periods.map(p => {
+        const r = (TIME[p] || "").split(" - ");
+        return `${r[0] || ""}${r[1] ? "\n" + r[1] : ""}`;
+      })
+    ]];
+
+    const body = WEEK.map((day, d) => {
+      const row = [day];
+      for (const p of periods){
+        const entries = schedule[d].get(p) || [];
+        if (!entries.length){ row.push(""); continue; }
+        row.push(
+          entries.map(e => {
+            const lines = [e.subject];
+            if (e.hall) lines.push(`Hall: ${e.hall}`);
+            if (e.sem)  lines.push(SEM_LABEL[e.sem] || e.sem);
+            return lines.join("\n");
+          }).join("\n───\n")
+        );
+      }
+      return row;
+    });
+
+    doc.autoTable({
+      head, body, startY: 20,
+      margin: { top: 20, right: 6, bottom: 12, left: 6 },
+      tableWidth: "wrap", theme: "grid",
+      styles: {
+        fontSize: 6.5, cellPadding: 1.4, overflow: "linebreak",
+        valign: "top", lineColor: [0,0,0], lineWidth: 0.15,
+        textColor: [17, 24, 39]
+      },
+      headStyles: {
+        fillColor: [243,244,246], textColor: [17,24,39],
+        halign: "center", valign: "middle", fontStyle: "bold",
+        fontSize: 6.5, cellPadding: 1.6
+      },
+      columnStyles: {
+        0: { cellWidth: 14, halign: "center", valign: "middle",
+             fontStyle: "bold", fillColor: [243,244,246], fontSize: 7.5 }
+      },
+      bodyStyles: { minCellHeight: 12 }
+    });
+
+    doc.save(pdfFileName());
+  } catch (err){
+    console.error("PDF generation failed:", err);
+    window.print();
+  } finally {
+    btn.disabled = false;
+    btn.textContent = label;
+  }
+}
+
+$("pdfBtn").addEventListener("click", downloadPDF);
+</script>
+</body>
+</html>
