@@ -15,19 +15,14 @@
     place-items: center;
     padding: 24px;
     background: rgba(0, 79, 152, 0.9);
-    background-size: 400% 400%;
   }
 
-  @keyframes gradientShift {
-    0%   { background-position: 0% 50%; }
-    50%  { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-  }
+  /* CRITICAL: make the `hidden` attribute actually hide things */
+  [hidden] { display: none !important; }
 
-  /* ---- white container, single column ---- */
   .card {
     width: 100%;
-    max-width: 420px;
+    max-width: 440px;
     background: #ffffff;
     border-radius: 20px;
     padding: 36px 32px 32px;
@@ -54,12 +49,7 @@
 
   form { display: flex; flex-direction: column; gap: 14px; }
 
-  label {
-    font-size: 13px;
-    font-weight: 600;
-    color: #374151;
-    letter-spacing: .3px;
-  }
+  label { font-size: 13px; font-weight: 600; color: #374151; letter-spacing: .3px; }
 
   input[type="text"], select {
     width: 100%;
@@ -72,28 +62,50 @@
     outline: none;
     transition: border-color .18s, box-shadow .18s, background .18s;
   }
-
   input[type="text"]:focus, select:focus {
-    border-color: #6d28d9;
-    background: #fff;
+    border-color: #6d28d9; background: #fff;
     box-shadow: 0 0 0 4px rgba(109, 40, 217, .15);
   }
 
-  /* ---- submit: light shade of black ---- */
-  button[type="submit"] {
-    margin-top: 6px;
-    padding: 14px;
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: .5px;
-    color: #ffffff;
-    background: #3a3a3a;
-    border: none;
+  /* ---- Student / Teacher toggle (class-based, no :has()) ---- */
+  .type-toggle {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6px;
+    padding: 6px;
+    background: #f3f4f6;
     border-radius: 12px;
-    cursor: pointer;
-    transition: background .18s, transform .1s;
+    margin-bottom: 4px;
+  }
+  .type-option {
+    display: flex; align-items: center; justify-content: center;
+    padding: 11px 8px; cursor: pointer; border-radius: 8px;
+    font-size: 14px; font-weight: 700; letter-spacing: .3px;
+    color: #4b5563;
+    transition: background .15s, color .15s, box-shadow .15s;
+    user-select: none;
+  }
+  .type-option input { display: none; }
+  .type-option:hover { background: #e5e7eb; }
+  .type-option.is-active {
+    background: #3a3a3a;
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,.18);
+  }
+  .type-option.is-active:hover { background: #232323; }
+
+  /* field groups */
+  #studentFields, #teacherFields {
+    display: flex; flex-direction: column; gap: 14px;
   }
 
+  button[type="submit"] {
+    margin-top: 6px; padding: 14px;
+    font-size: 16px; font-weight: 700; letter-spacing: .5px;
+    color: #ffffff; background: #3a3a3a;
+    border: none; border-radius: 12px; cursor: pointer;
+    transition: background .18s, transform .1s;
+  }
   button[type="submit"]:hover  { background: #232323; }
   button[type="submit"]:active { transform: scale(.985); }
 </style>
@@ -102,24 +114,130 @@
 
   <main class="card">
     <h1>Time Table</h1>
-    <p class="sub">Enter your roll number and pick your semester</p>
+    <p class="sub">Choose Student or Teacher, then enter details</p>
 
-    <!-- GET → time_table.html?roll=U25CS141&sem=III -->
-    <form action="time_table.html" method="get" autocomplete="off">
-      <label for="roll">College Roll Number</label>
-      <input id="roll" name="roll" type="text" placeholder="e.g. U25CS141" required />
+    <form id="mainForm" action="time_table.html" method="get" autocomplete="off">
 
-      <label for="sem">Semester</label>
-      <select id="sem" name="sem" required>
-        <option value="I">I</option>
-        <option value="III">III</option>
-        <option value="V">V</option>
-        <option value="VII">VII</option>
-      </select>
+      <div class="type-toggle" role="radiogroup" aria-label="View type">
+        <label class="type-option is-active" data-type="student">
+          <input type="radio" name="type" value="student" checked />
+          <span>Student</span>
+        </label>
+        <label class="type-option" data-type="teacher">
+          <input type="radio" name="type" value="teacher" />
+          <span>Teacher</span>
+        </label>
+      </div>
+
+      <!-- STUDENT -->
+      <div id="studentFields">
+        <label for="roll">College Roll Number</label>
+        <input id="roll" name="roll" type="text" placeholder="e.g. U25CS141" />
+
+        <label for="sem">Semester</label>
+        <select id="sem" name="sem">
+          <option value="I">I</option>
+          <option value="III">III</option>
+          <option value="V">V</option>
+          <option value="VII">VII</option>
+        </select>
+      </div>
+
+      <!-- TEACHER -->
+      <div id="teacherFields" hidden>
+        <label for="teacher">Teacher Name</label>
+        <input id="teacher" name="teacher" type="text"
+               placeholder="e.g. FL SOHTUN" list="teacherList" />
+        <datalist id="teacherList"></datalist>
+      </div>
 
       <button type="submit">Submit</button>
     </form>
   </main>
+
+<script>
+(function () {
+  const form           = document.getElementById("mainForm");
+  const studentFields  = document.getElementById("studentFields");
+  const teacherFields  = document.getElementById("teacherFields");
+  const rollInput      = document.getElementById("roll");
+  const semInput       = document.getElementById("sem");
+  const teacherInput   = document.getElementById("teacher");
+  const typeRadios     = document.querySelectorAll('input[name="type"]');
+  const typeOptionEls  = document.querySelectorAll(".type-option");
+
+  function currentType() {
+    const checked = document.querySelector('input[name="type"]:checked');
+    return checked ? checked.value : "student";
+  }
+
+  function updateFormState() {
+    const isStudent = currentType() === "student";
+
+    /* visually hide/show the field groups */
+    studentFields.hidden = !isStudent;
+    teacherFields.hidden =  isStudent;
+
+    /* disable + drop the `required` of the non-active group
+       (disabled fields are neither validated nor submitted) */
+    rollInput.disabled    = !isStudent;
+    semInput.disabled     = !isStudent;
+    teacherInput.disabled =  isStudent;
+
+    rollInput.required    =  isStudent;
+    semInput.required     =  isStudent;
+    teacherInput.required = !isStudent;
+
+    /* visual active state on the toggle buttons */
+    typeOptionEls.forEach(el => {
+      el.classList.toggle("is-active", el.dataset.type ===
+        (isStudent ? "student" : "teacher"));
+    });
+
+    /* route the form to the right page */
+    form.action = isStudent ? "time_table.html" : "time_table_teacher.html";
+  }
+
+  typeRadios.forEach(r => r.addEventListener("change", updateFormState));
+  updateFormState();
+
+  /* Extra safety: re-verify state at submit time.
+     Protects against unusual browsers / autofill edge cases. */
+  form.addEventListener("submit", () => {
+    const isStudent = currentType() === "student";
+    form.action = isStudent ? "time_table.html" : "time_table_teacher.html";
+    rollInput.disabled    = !isStudent;
+    semInput.disabled     = !isStudent;
+    teacherInput.disabled =  isStudent;
+    if (!isStudent) {
+      // trim the teacher name so trailing spaces never break the match
+      teacherInput.value = teacherInput.value.trim();
+    }
+  });
+
+  /* Load datalist from Clean_teachers.csv (optional) */
+  (async function loadTeachers() {
+    try {
+      const res = await fetch("Clean_teachers.csv", { cache: "no-store" });
+      if (!res.ok) return;
+      const text = await res.text();
+      let lines = text.split(/\r?\n/)
+        .map(l => l.replace(/,\s*$/, "").trim())
+        .filter(Boolean);
+      if (lines[0] && /^teacher[_\s]?name$/i.test(lines[0])) lines = lines.slice(1);
+      const unique = [...new Set(lines)].sort();
+      const dl = document.getElementById("teacherList");
+      unique.forEach(name => {
+        const opt = document.createElement("option");
+        opt.value = name;
+        dl.appendChild(opt);
+      });
+    } catch (e) {
+      console.warn("Teacher list could not be loaded:", e);
+    }
+  })();
+})();
+</script>
 
 </body>
 </html>
