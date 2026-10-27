@@ -272,7 +272,15 @@
 <!-- jsPDF + AutoTable -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
-
+<script>
+if ("serviceWorker" in navigator && location.protocol !== "file:") {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker
+      .register("./service-worker.js", { scope: "./" })
+      .catch((err) => console.warn("[PWA] SW registration failed:", err));
+  });
+}
+</script>
 <script>
 /* ============================ CONSTANTS ============================ */
 const WEEK = ["MON", "TUE", "WED", "THRUS", "FRI"];
